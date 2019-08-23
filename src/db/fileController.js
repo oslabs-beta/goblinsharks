@@ -14,21 +14,21 @@ const jsonData = require("./data.json")
 }
 // createFile('data.json')`
 
-async function appendFile(queryKey,resolverName){
+async function appendFile(queryKey,resolverName,speed){
   try{
-
     if (!jsonData[queryKey]){
       jsonData[queryKey]= {};
     }
     if (!jsonData[queryKey][resolverName]){
       jsonData[queryKey][resolverName] = [];
-    } else {
+    } 
+
       jsonData[queryKey][resolverName].push({
-        speed: 1,
+        speed: speed,
         frequency: 1,
         time: Date.now()
       })
-    }
+    
     console.log(jsonData)
     fs.writeFile(path.join(__dirname,'data.json'), JSON.stringify(jsonData))
     // const analyticsDataBuffer = await fs.readFile(path.join(__dirname,'data.json'))

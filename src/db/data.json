@@ -1,1 +1,43 @@
-{"Query":{"state":[{"speed":1,"frequency":1,"time":1566595801387}]},"State":{"name":[{"speed":1,"frequency":1,"time":1566595801392}],"total_dosage":[{"speed":1,"frequency":1,"time":1566595801392}],"county":[{"speed":1,"frequency":1,"time":1566595801393}]},"County":{"name":[{"speed":1,"frequency":1,"time":1566595801395}]}}
+{
+  "Query": {
+    "state": [
+      {
+        "speed": 0.5228,
+        "frequency": 1,
+        "time": 1566596655113
+      }
+    ]
+  },
+  "State": {
+    "county": [
+      {
+        "speed": 0.078,
+        "frequency": 1,
+        "time": 1566596655119
+      }
+    ],
+    "name": [
+      {
+        "speed": 91.1064,
+        "frequency": 1,
+        "time": 1566596655208
+      }
+    ],
+    "total_dosage": [
+      {
+        "speed": 90.4233,
+        "frequency": 1,
+        "time": 1566596655208
+      }
+    ]
+  },
+  "County": {
+    "name": [
+      {
+        "speed": 0.1518,
+        "frequency": 1,
+        "time": 1566596655120
+      }
+    ]
+  }
+}
