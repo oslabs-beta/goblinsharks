@@ -3,10 +3,10 @@ const mockResolvers = require('../testResolvers/mockResolvers')
 const mapResolvers = require("./mapResolvers")
 const { createFile } = require('./db/fileController')
 
+
 class EnableMonitoring{
   constructor(resolvers){
-    this.resolvers = mapResolvers(resolvers);
-    this.createFile = createFile();
+    this.resolvers =  mapResolvers(resolvers);
   }
 }
 

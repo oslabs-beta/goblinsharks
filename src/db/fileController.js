@@ -1,8 +1,8 @@
 const fs = require('fs').promises;
 const path = require('path')
+const jsonData = require("./data.json")
 
  async function createFile(filename) {
-
     try {
       const fileStatus = await fs.open(__dirname + '/data.json','r')
       console.log('file already exists')
@@ -11,32 +11,30 @@ const path = require('path')
       await fs.writeFile(__dirname + '/data.json',JSON.stringify({}))
       console.log('the file was saved')
     }
-    
 }
-// createFile('data.json')
+// createFile('data.json')`
 
-async function appendFile(queryKey,resolverName,data){
+async function appendFile(queryKey,resolverName){
   try{
-    const data = await fs.readFile(path.join(__dirname,'data.json'))
-    const jsonData = (JSON.parse(data))
+
     if (!jsonData[queryKey]){
-      jsonData[queryKey] = {
-        [resolverName] : {
-          speed:0,
-          frequency:0,
-          time:0
-        }
-      }
-       fs.writeFile(path.join(__dirname,'data.json'),JSON.stringify(jsonData))
-    } else {
-      jsonData[queryKey][resolverName].speed ++
-      jsonData[queryKey][resolverName].frequency ++
-      fs.writeFile(path.join(__dirname,'data.json'),JSON.stringify(jsonData))
+      jsonData[queryKey]= {};
     }
+    if (!jsonData[queryKey][resolverName]){
+      jsonData[queryKey][resolverName] = [];
+    } else {
+      jsonData[queryKey][resolverName].push({
+        speed: 1,
+        frequency: 1,
+        time: Date.now()
+      })
+    }
+    console.log(jsonData)
+    fs.writeFile(path.join(__dirname,'data.json'), JSON.stringify(jsonData))
+    // const analyticsDataBuffer = await fs.readFile(path.join(__dirname,'data.json'))
   } catch {
     console.log('unable to append')
   }
- 
 }
 
 

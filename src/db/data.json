@@ -1,1 +1,1 @@
-{"County":{"total_manufactured":{"speed":1,"frequency":1,"time":0}}}"State":{"name":{"speed":0,"frequency":0,"time":0}}}:0,"time":0}}}
+{"Query":{"state":[{"speed":1,"frequency":1,"time":1566595801387}]},"State":{"name":[{"speed":1,"frequency":1,"time":1566595801392}],"total_dosage":[{"speed":1,"frequency":1,"time":1566595801392}],"county":[{"speed":1,"frequency":1,"time":1566595801393}]},"County":{"name":[{"speed":1,"frequency":1,"time":1566595801395}]}}
