@@ -5,6 +5,21 @@
         "speed": 0.5228,
         "frequency": 1,
         "time": 1566596655113
+      },
+      {
+        "speed": 0.02,
+        "frequency": 1,
+        "time": 1566596780643
+      },
+      {
+        "speed": 0.0173,
+        "frequency": 1,
+        "time": 1566596846257
+      },
+      {
+        "speed": 0.0448,
+        "frequency": 1,
+        "time": 1566596846653
       }
     ]
   },
@@ -14,6 +29,21 @@
         "speed": 0.078,
         "frequency": 1,
         "time": 1566596655119
+      },
+      {
+        "speed": 0.0607,
+        "frequency": 1,
+        "time": 1566596780645
+      },
+      {
+        "speed": 0.0137,
+        "frequency": 1,
+        "time": 1566596846259
+      },
+      {
+        "speed": 0.0114,
+        "frequency": 1,
+        "time": 1566596846654
       }
     ],
     "name": [
@@ -21,6 +51,21 @@
         "speed": 91.1064,
         "frequency": 1,
         "time": 1566596655208
+      },
+      {
+        "speed": 124.2661,
+        "frequency": 1,
+        "time": 1566596780768
+      },
+      {
+        "speed": 99.4148,
+        "frequency": 1,
+        "time": 1566596846357
+      },
+      {
+        "speed": 106.3956,
+        "frequency": 1,
+        "time": 1566596846761
       }
     ],
     "total_dosage": [
@@ -28,6 +73,38 @@
         "speed": 90.4233,
         "frequency": 1,
         "time": 1566596655208
+      },
+      {
+        "speed": 122.9667,
+        "frequency": 1,
+        "time": 1566596780767
+      },
+      {
+        "speed": 132.4929,
+        "frequency": 1,
+        "time": 1566596846391
+      },
+      {
+        "speed": 107.051,
+        "frequency": 1,
+        "time": 1566596846761
+      }
+    ],
+    "total_manufactured": [
+      {
+        "speed": 22934.9309,
+        "frequency": 1,
+        "time": 1566596803579
+      },
+      {
+        "speed": 21327.1981,
+        "frequency": 1,
+        "time": 1566596867586
+      },
+      {
+        "speed": 22262.8474,
+        "frequency": 1,
+        "time": 1566596868917
       }
     ]
   },
@@ -37,6 +114,35 @@
         "speed": 0.1518,
         "frequency": 1,
         "time": 1566596655120
+      },
+      {
+        "speed": 1.129,
+        "frequency": 1,
+        "time": 1566596780647
+      },
+      {
+        "speed": 0.0126,
+        "frequency": 1,
+        "time": 1566596846259
+      },
+      {
+        "speed": 0.012,
+        "frequency": 1,
+        "time": 1566596846655
+      }
+    ],
+    "total_dosage": [
+      {
+        "speed": 136.9809,
+        "frequency": 1,
+        "time": 1566596780783
+      }
+    ],
+    "total_manufactured": [
+      {
+        "speed": 22933.7126,
+        "frequency": 1,
+        "time": 1566596803580
       }
     ]
   }
