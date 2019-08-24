@@ -1,0 +1,23 @@
+{
+  "name": "goblin-ql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "bin": {
+    "goblinql2": "./bin/goblin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Andrew Tang, Justin Fung, Billy Lee, Sorouuush",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "performance-now": "^2.1.0",
+    "sleep-ms": "^2.0.1"
+  }
+}
