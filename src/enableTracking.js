@@ -9,8 +9,7 @@ module.exports = function enableTracking(resolversObject,queryField) {
   
   const updatedResolverFunctions = resolverFunctions.map((resolverFunc,index) => {
     const fieldName = fields[index];
-    const currentResolver = async function(...args) { // this is where we should add logic to write to JSON file - -  -
-    // console.log(`Currently tracking the ${fieldName} resolver. Parent of this resolver is ${args[0]}.`);
+    const currentResolver = async function(...args) { 
     const [parent, params, ctx, info] = args
     var t0 = now();
     const resolverReturnValue = await resolverFunc(...args)
