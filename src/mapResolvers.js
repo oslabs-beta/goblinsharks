@@ -1,5 +1,5 @@
 const enableTracking = require("./enableTracking")
-const { createFile } = require("./db/fileController")
+const { createFile } = require("../bin/db/fileController")
 
 
 

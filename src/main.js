@@ -1,7 +1,7 @@
 const enableTracking = require('./enableTracking.js')
 const mockResolvers = require('../testResolvers/mockResolvers')
 const mapResolvers = require("./mapResolvers")
-const { createFile } = require('./db/fileController')
+const { createFile } = require('../bin/db/fileController')
 
 
 class EnableMonitoring{

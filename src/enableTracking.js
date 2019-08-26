@@ -1,5 +1,5 @@
 const now = require('performance-now')
-const { appendFile } = require("./db/fileController")
+const { appendFile } = require("../bin/db/fileController")
 
 module.exports = function enableTracking(resolversObject,queryField) {
   // takes resolvers object of key value pairs
