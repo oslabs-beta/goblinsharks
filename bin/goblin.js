@@ -7,7 +7,7 @@ goblin
   .command('server')
   .alias('s')
   .description('Start GoblinQL Monitoring')
-  .action(() => exec(`node ${__dirname}/server.js & open http://localhost:9000/goblinql` ))
+  .action(() => exec(`node ${__dirname}/wsServer.js & sleep 0.25; open http://localhost:9000/goblinql` ))
 
 goblin.parse(process.argv);
 

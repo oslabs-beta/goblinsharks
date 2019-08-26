@@ -1,11 +1,11 @@
-const connection = new WebSocket('ws://localhost:8080');
+const connection = new WebSocket('ws://localhost:9000');
 
 
 
 
 
 connection.addEventListener('open',()=>{
-  console.log('websocket connection established to port 8080');
+  console.log('websocket connection established to port 9000');
 })
 
 connection.addEventListener('message',(e) => {
