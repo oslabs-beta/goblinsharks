@@ -1,5 +1,6 @@
 const now = require('performance-now')
 const { appendFile } = require("../bin/db/fileController")
+const uniqid = require('uniqid');
 
 module.exports = function enableTracking(resolversObject,queryField) {
   // takes resolvers object of key value pairs - 
@@ -12,11 +13,15 @@ module.exports = function enableTracking(resolversObject,queryField) {
     const fieldName = fields[index];
     const currentResolver = async function(...args) { 
     const [parent, params, ctx, info] = args // 4 arguments available to resolvers. 
+    if (!ctx['id'])  { // setting a unique id per request on the context obj
+      ctx['id'] = uniqid.process();
+    }
+    const id = ctx.id
     var t0 = now(); 
     const resolverReturnValue = await resolverFunc(...args) // executing the original resolver. 
     var t1 = now();
     let speed = parseFloat((t1-t0).toFixed(4));
-    await appendFile(queryField,fieldName,speed);
+    await appendFile(queryField,fieldName,speed,id);
 
     console.log('Took', (t1 - t0).toFixed(4), 'milliseconds to run the ', fieldName + ' resolver.');
     return resolverReturnValue

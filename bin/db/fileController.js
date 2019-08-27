@@ -11,7 +11,7 @@ async function createFile(filename) {
     }
 }
 
-async function appendFile(queryKey,resolverName,speed){
+async function appendFile(queryKey,resolverName,speed,id){
   try{
     if (!jsonData[queryKey]){ // checking if the query type is defined - - 
       jsonData[queryKey]= {};
@@ -22,7 +22,9 @@ async function appendFile(queryKey,resolverName,speed){
       jsonData[queryKey][resolverName].push({ // each resolver execution is logged with this object - 
         speed: speed,
         frequency: 1,
-        time: Date.now()})
+        time: Date.now(),
+        id: id
+      })
     fs.writeFile(path.join(__dirname,'data.json'), JSON.stringify(jsonData,null,2)) // write new data to json
   } catch {
     console.log('unable to append')

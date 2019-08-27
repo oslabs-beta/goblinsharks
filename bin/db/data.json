@@ -2,613 +2,104 @@
   "Query": {
     "state": [
       {
-        "speed": 0.6141,
+        "speed": 0.5063,
         "frequency": 1,
-        "time": 1566873086821
+        "time": 1566928337732,
+        "id": "xicjzu4obb8"
       },
       {
-        "speed": 0.0417,
+        "speed": 0.019,
         "frequency": 1,
-        "time": 1566873107593
-      },
-      {
-        "speed": 0.5269,
-        "frequency": 1,
-        "time": 1566873428306
-      },
-      {
-        "speed": 0.0268,
-        "frequency": 1,
-        "time": 1566873478712
-      },
-      {
-        "speed": 0.5147,
-        "frequency": 1,
-        "time": 1566874762879
-      },
-      {
-        "speed": 0.5591,
-        "frequency": 1,
-        "time": 1566876902357
-      },
-      {
-        "speed": 0.0223,
-        "frequency": 1,
-        "time": 1566876921917
-      },
-      {
-        "speed": 0.0132,
-        "frequency": 1,
-        "time": 1566876922858
-      },
-      {
-        "speed": 0.0143,
-        "frequency": 1,
-        "time": 1566876923892
-      },
-      {
-        "speed": 0.5975,
-        "frequency": 1,
-        "time": 1566876977931
-      },
-      {
-        "speed": 0.0174,
-        "frequency": 1,
-        "time": 1566876979418
-      },
-      {
-        "speed": 0.0136,
-        "frequency": 1,
-        "time": 1566876980832
-      },
-      {
-        "speed": 0.0146,
-        "frequency": 1,
-        "time": 1566876981648
-      },
-      {
-        "speed": 0.0194,
-        "frequency": 1,
-        "time": 1566876982698
-      },
-      {
-        "speed": 0.0188,
-        "frequency": 1,
-        "time": 1566876985942
-      },
-      {
-        "speed": 0.0227,
-        "frequency": 1,
-        "time": 1566877000999
-      },
-      {
-        "speed": 0.0188,
-        "frequency": 1,
-        "time": 1566877003181
-      },
-      {
-        "speed": 0.0143,
-        "frequency": 1,
-        "time": 1566877003877
-      },
-      {
-        "speed": 0.0186,
-        "frequency": 1,
-        "time": 1566877021848
-      },
-      {
-        "speed": 0.0144,
-        "frequency": 1,
-        "time": 1566877024266
-      },
-      {
-        "speed": 0.0151,
-        "frequency": 1,
-        "time": 1566877024947
-      },
-      {
-        "speed": 0.0146,
-        "frequency": 1,
-        "time": 1566877025701
-      },
-      {
-        "speed": 0.0185,
-        "frequency": 1,
-        "time": 1566877026642
-      },
-      {
-        "speed": 0.0235,
-        "frequency": 1,
-        "time": 1566877530663
-      },
-      {
-        "speed": 0.0141,
-        "frequency": 1,
-        "time": 1566877531353
-      },
-      {
-        "speed": 0.0139,
-        "frequency": 1,
-        "time": 1566877532180
-      },
-      {
-        "speed": 0.0139,
-        "frequency": 1,
-        "time": 1566877533200
-      },
-      {
-        "speed": 0.0139,
-        "frequency": 1,
-        "time": 1566877534175
-      },
-      {
-        "speed": 0.0117,
-        "frequency": 1,
-        "time": 1566877538400
-      },
-      {
-        "speed": 0.0265,
-        "frequency": 1,
-        "time": 1566877540630
-      },
-      {
-        "speed": 0.0122,
-        "frequency": 1,
-        "time": 1566877575458
-      },
-      {
-        "speed": 0.0154,
-        "frequency": 1,
-        "time": 1566877578525
-      },
-      {
-        "speed": 0.0174,
-        "frequency": 1,
-        "time": 1566877579038
-      },
-      {
-        "speed": 0.0147,
-        "frequency": 1,
-        "time": 1566877579739
-      },
-      {
-        "speed": 0.015,
-        "frequency": 1,
-        "time": 1566877580670
-      },
-      {
-        "speed": 0.0164,
-        "frequency": 1,
-        "time": 1566877582217
-      },
-      {
-        "speed": 0.0151,
-        "frequency": 1,
-        "time": 1566877583280
-      },
-      {
-        "speed": 0.0134,
-        "frequency": 1,
-        "time": 1566877584077
-      },
-      {
-        "speed": 0.0157,
-        "frequency": 1,
-        "time": 1566877601277
+        "time": 1566928364455,
+        "id": "xicjzu4ovxj"
       }
     ]
   },
   "State": {
-    "name": [
-      {
-        "speed": 89.1358,
-        "frequency": 1,
-        "time": 1566873086911
-      },
-      {
-        "speed": 104.8366,
-        "frequency": 1,
-        "time": 1566873107698
-      },
-      {
-        "speed": 82.0423,
-        "frequency": 1,
-        "time": 1566873428389
-      },
-      {
-        "speed": 190.9565,
-        "frequency": 1,
-        "time": 1566873478903
-      },
-      {
-        "speed": 89.2489,
-        "frequency": 1,
-        "time": 1566874762969
-      },
-      {
-        "speed": 114.8709,
-        "frequency": 1,
-        "time": 1566876902473
-      },
-      {
-        "speed": 85.1939,
-        "frequency": 1,
-        "time": 1566876922003
-      },
-      {
-        "speed": 27.6513,
-        "frequency": 1,
-        "time": 1566876922886
-      },
-      {
-        "speed": 29.2821,
-        "frequency": 1,
-        "time": 1566876923921
-      },
-      {
-        "speed": 86.4149,
-        "frequency": 1,
-        "time": 1566876978019
-      },
-      {
-        "speed": 29.3544,
-        "frequency": 1,
-        "time": 1566876979448
-      },
-      {
-        "speed": 31.5247,
-        "frequency": 1,
-        "time": 1566876980864
-      },
-      {
-        "speed": 28.7792,
-        "frequency": 1,
-        "time": 1566876981677
-      },
-      {
-        "speed": 29.6021,
-        "frequency": 1,
-        "time": 1566876982728
-      },
-      {
-        "speed": 31.4174,
-        "frequency": 1,
-        "time": 1566876985974
-      }
-    ],
     "county": [
       {
-        "speed": 0.078,
+        "speed": 0.068,
         "frequency": 1,
-        "time": 1566873107594
+        "time": 1566928337734,
+        "id": "xicjzu4obb8"
       },
       {
-        "speed": 0.0922,
+        "speed": 0.0217,
         "frequency": 1,
-        "time": 1566873428309
-      },
-      {
-        "speed": 0.0474,
-        "frequency": 1,
-        "time": 1566873478713
-      },
-      {
-        "speed": 0.1079,
-        "frequency": 1,
-        "time": 1566874762881
-      },
-      {
-        "speed": 0.1166,
-        "frequency": 1,
-        "time": 1566876902361
-      },
-      {
-        "speed": 0.1532,
-        "frequency": 1,
-        "time": 1566877001000
-      },
-      {
-        "speed": 0.0215,
-        "frequency": 1,
-        "time": 1566877003181
-      },
-      {
-        "speed": 0.0098,
-        "frequency": 1,
-        "time": 1566877003877
-      },
-      {
-        "speed": 0.0106,
-        "frequency": 1,
-        "time": 1566877021849
-      },
-      {
-        "speed": 0.0104,
-        "frequency": 1,
-        "time": 1566877024267
-      },
-      {
-        "speed": 0.0154,
-        "frequency": 1,
-        "time": 1566877024947
-      },
-      {
-        "speed": 0.0085,
-        "frequency": 1,
-        "time": 1566877025702
-      },
-      {
-        "speed": 0.014,
-        "frequency": 1,
-        "time": 1566877026643
-      },
-      {
-        "speed": 0.0122,
-        "frequency": 1,
-        "time": 1566877530663
-      },
-      {
-        "speed": 0.0106,
-        "frequency": 1,
-        "time": 1566877531353
-      },
-      {
-        "speed": 0.0101,
-        "frequency": 1,
-        "time": 1566877532180
-      },
-      {
-        "speed": 0.0107,
-        "frequency": 1,
-        "time": 1566877533200
-      },
-      {
-        "speed": 0.0117,
-        "frequency": 1,
-        "time": 1566877534175
-      },
-      {
-        "speed": 0.008,
-        "frequency": 1,
-        "time": 1566877538400
-      },
-      {
-        "speed": 0.0176,
-        "frequency": 1,
-        "time": 1566877540631
-      },
-      {
-        "speed": 0.0079,
-        "frequency": 1,
-        "time": 1566877575458
-      },
-      {
-        "speed": 0.01,
-        "frequency": 1,
-        "time": 1566877578526
-      },
-      {
-        "speed": 0.0118,
-        "frequency": 1,
-        "time": 1566877579039
-      },
-      {
-        "speed": 0.021,
-        "frequency": 1,
-        "time": 1566877579740
-      },
-      {
-        "speed": 0.0142,
-        "frequency": 1,
-        "time": 1566877580670
-      },
-      {
-        "speed": 0.0114,
-        "frequency": 1,
-        "time": 1566877582218
-      },
-      {
-        "speed": 0.0081,
-        "frequency": 1,
-        "time": 1566877583280
-      },
-      {
-        "speed": 0.0088,
-        "frequency": 1,
-        "time": 1566877584077
-      },
-      {
-        "speed": 0.0088,
-        "frequency": 1,
-        "time": 1566877601278
+        "time": 1566928364456,
+        "id": "xicjzu4ovxj"
       }
     ],
     "total_dosage": [
       {
-        "speed": 182.8951,
+        "speed": 273.4696,
         "frequency": 1,
-        "time": 1566873107776
+        "time": 1566928338006,
+        "id": "xicjzu4obb8"
       },
       {
-        "speed": 80.335,
+        "speed": 48.5845,
         "frequency": 1,
-        "time": 1566873428389
+        "time": 1566928364504,
+        "id": "xicjzu4ovxj"
+      }
+    ],
+    "total_manufactured": [
+      {
+        "speed": 21261.0641,
+        "frequency": 1,
+        "time": 1566928358995,
+        "id": "xicjzu4obb8"
       },
       {
-        "speed": 189.9739,
+        "speed": 20992.4431,
         "frequency": 1,
-        "time": 1566873478903
-      },
-      {
-        "speed": 93.8649,
-        "frequency": 1,
-        "time": 1566874762975
-      },
-      {
-        "speed": 114.2755,
-        "frequency": 1,
-        "time": 1566876902474
-      },
-      {
-        "speed": 90.388,
-        "frequency": 1,
-        "time": 1566876986033
+        "time": 1566928385448,
+        "id": "xicjzu4ovxj"
       }
     ]
   },
   "County": {
     "name": [
       {
-        "speed": 0.0677,
+        "speed": 0.758,
         "frequency": 1,
-        "time": 1566873107594
+        "time": 1566928337735,
+        "id": "xicjzu4obb8"
       },
       {
-        "speed": 0.069,
+        "speed": 0.0539,
         "frequency": 1,
-        "time": 1566873428309
-      },
-      {
-        "speed": 0.8468,
-        "frequency": 1,
-        "time": 1566873478715
-      },
-      {
-        "speed": 0.0969,
-        "frequency": 1,
-        "time": 1566874762882
-      },
-      {
-        "speed": 0.0742,
-        "frequency": 1,
-        "time": 1566876902361
-      },
-      {
-        "speed": 0.0838,
-        "frequency": 1,
-        "time": 1566877001000
-      },
-      {
-        "speed": 0.0115,
-        "frequency": 1,
-        "time": 1566877003181
-      },
-      {
-        "speed": 0.0073,
-        "frequency": 1,
-        "time": 1566877003877
-      },
-      {
-        "speed": 0.0081,
-        "frequency": 1,
-        "time": 1566877021849
-      },
-      {
-        "speed": 0.0108,
-        "frequency": 1,
-        "time": 1566877024267
-      },
-      {
-        "speed": 0.016,
-        "frequency": 1,
-        "time": 1566877024947
-      },
-      {
-        "speed": 0.0096,
-        "frequency": 1,
-        "time": 1566877025702
-      },
-      {
-        "speed": 0.0068,
-        "frequency": 1,
-        "time": 1566877026643
-      },
-      {
-        "speed": 0.0094,
-        "frequency": 1,
-        "time": 1566877530663
-      },
-      {
-        "speed": 0.0074,
-        "frequency": 1,
-        "time": 1566877531353
-      },
-      {
-        "speed": 0.0097,
-        "frequency": 1,
-        "time": 1566877532181
-      },
-      {
-        "speed": 0.0144,
-        "frequency": 1,
-        "time": 1566877533201
-      },
-      {
-        "speed": 0.0104,
-        "frequency": 1,
-        "time": 1566877534175
-      },
-      {
-        "speed": 0.0097,
-        "frequency": 1,
-        "time": 1566877538401
-      },
-      {
-        "speed": 0.0138,
-        "frequency": 1,
-        "time": 1566877540631
-      },
-      {
-        "speed": 0.0095,
-        "frequency": 1,
-        "time": 1566877575459
-      },
-      {
-        "speed": 0.0094,
-        "frequency": 1,
-        "time": 1566877578526
-      },
-      {
-        "speed": 0.0175,
-        "frequency": 1,
-        "time": 1566877579039
-      },
-      {
-        "speed": 0.0111,
-        "frequency": 1,
-        "time": 1566877579740
-      },
-      {
-        "speed": 0.0113,
-        "frequency": 1,
-        "time": 1566877580670
-      },
-      {
-        "speed": 0.012,
-        "frequency": 1,
-        "time": 1566877582218
-      },
-      {
-        "speed": 0.0101,
-        "frequency": 1,
-        "time": 1566877583280
-      },
-      {
-        "speed": 0.0095,
-        "frequency": 1,
-        "time": 1566877584077
-      },
-      {
-        "speed": 0.0077,
-        "frequency": 1,
-        "time": 1566877601278
+        "time": 1566928364456,
+        "id": "xicjzu4ovxj"
       }
     ],
     "total_dosage": [
       {
-        "speed": 194.4138,
+        "speed": 272.5015,
         "frequency": 1,
-        "time": 1566873478908
+        "time": 1566928338007,
+        "id": "xicjzu4obb8"
+      },
+      {
+        "speed": 133.5282,
+        "frequency": 1,
+        "time": 1566928364589,
+        "id": "xicjzu4ovxj"
+      }
+    ],
+    "total_manufactured": [
+      {
+        "speed": 21258.3124,
+        "frequency": 1,
+        "time": 1566928358994,
+        "id": "xicjzu4obb8"
+      },
+      {
+        "speed": 21046.5879,
+        "frequency": 1,
+        "time": 1566928385503,
+        "id": "xicjzu4ovxj"
       }
     ]
   }
