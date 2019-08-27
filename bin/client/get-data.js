@@ -30,7 +30,7 @@ connection.onopen = () => {
 
 window.onload = () => {
   console.log(data)
-  fetch('./db/data.json')
+  fetch('../db/data.json')
   .then((data)=>data.json())
   .then((res)=>{
     const vals = Object.values(res);

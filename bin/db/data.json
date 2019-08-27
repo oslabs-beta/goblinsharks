@@ -1,1 +1,615 @@
-{"Query":{"state":[{"speed":0.4622,"frequency":1,"time":1566680885436},{"speed":0.0254,"frequency":1,"time":1566680913376},{"speed":0.0226,"frequency":1,"time":1566680916942},{"speed":0.0196,"frequency":1,"time":1566680917295},{"speed":0.6808,"frequency":1,"time":1566862229264},{"speed":0.0207,"frequency":1,"time":1566862318628},{"speed":0.0164,"frequency":1,"time":1566862320423},{"speed":0.0206,"frequency":1,"time":1566862321864},{"speed":0.0142,"frequency":1,"time":1566862322557},{"speed":0.6399,"frequency":1,"time":1566862422757},{"speed":0.0188,"frequency":1,"time":1566862835457},{"speed":0.0137,"frequency":1,"time":1566862845321},{"speed":0.6056,"frequency":1,"time":1566862948066},{"speed":0.5626,"frequency":1,"time":1566863028542},{"speed":0.0211,"frequency":1,"time":1566863031100},{"speed":0.0161,"frequency":1,"time":1566863031935},{"speed":0.5835,"frequency":1,"time":1566863078146},{"speed":0.0209,"frequency":1,"time":1566863096053},{"speed":0.0151,"frequency":1,"time":1566863097572},{"speed":0.0166,"frequency":1,"time":1566863098606},{"speed":0.0135,"frequency":1,"time":1566863099155},{"speed":0.0152,"frequency":1,"time":1566863099600},{"speed":0.5402,"frequency":1,"time":1566863408651},{"speed":0.0263,"frequency":1,"time":1566863411044},{"speed":0.0176,"frequency":1,"time":1566863412055},{"speed":0.0171,"frequency":1,"time":1566863470728},{"speed":6.5706,"frequency":1,"time":1566872061974},{"speed":0.0191,"frequency":1,"time":1566872071033},{"speed":0.6084,"frequency":1,"time":1566872277833},{"speed":0.0754,"frequency":1,"time":1566872279494},{"speed":0.0203,"frequency":1,"time":1566872281036},{"speed":0.0156,"frequency":1,"time":1566872282752},{"speed":0.0194,"frequency":1,"time":1566872284144},{"speed":0.016,"frequency":1,"time":1566872285054},{"speed":0.0114,"frequency":1,"time":1566872285807},{"speed":0.0132,"frequency":1,"time":1566872290790},{"speed":0.0249,"frequency":1,"time":1566872314392},{"speed":0.0313,"frequency":1,"time":1566872358104},{"speed":0.0184,"frequency":1,"time":1566872372517}]},"State":{"name":[{"speed":150.1893,"frequency":1,"time":1566680885587},{"speed":91.4584,"frequency":1,"time":1566680913468},{"speed":97.1581,"frequency":1,"time":1566862229362},{"speed":157.9435,"frequency":1,"time":1566862318786},{"speed":31.3495,"frequency":1,"time":1566862320455},{"speed":29.4992,"frequency":1,"time":1566862321894},{"speed":32.7598,"frequency":1,"time":1566862322590},{"speed":89.5618,"frequency":1,"time":1566862422847},{"speed":290.441,"frequency":1,"time":1566862835748},{"speed":30.1814,"frequency":1,"time":1566862845352},{"speed":86.0663,"frequency":1,"time":1566862948153},{"speed":100.3303,"frequency":1,"time":1566863028644},{"speed":239.4908,"frequency":2,"time":1566863031310},{"speed":30.2512,"frequency":1,"time":1566863031965},{"speed":81.2406,"frequency":1,"time":1566863078228},{"speed":99.9861,"frequency":1,"time":1566863096153},{"speed":28.9298,"frequency":1,"time":1566863097601},{"speed":62.2468,"frequency":1,"time":1566863098669},{"speed":33.5125,"frequency":1,"time":1566863099188},{"speed":36.6398,"frequency":1,"time":1566863099637},{"speed":81.8663,"frequency":1,"time":1566863408734},{"speed":30.8296,"frequency":1,"time":1566863411075},{"speed":30.0207,"frequency":1,"time":1566863412085},{"speed":559.7316,"frequency":1,"time":1566863471288},{"speed":112.4248,"frequency":1,"time":1566872062088},{"speed":28.6521,"frequency":1,"time":1566872071062},{"speed":83.6539,"frequency":1,"time":1566872277917},{"speed":28.8725,"frequency":1,"time":1566872279523},{"speed":31.2345,"frequency":1,"time":1566872281067},{"speed":28.8618,"frequency":1,"time":1566872282781},{"speed":31.4746,"frequency":1,"time":1566872284176},{"speed":30.3106,"frequency":1,"time":1566872285085},{"speed":30.3626,"frequency":1,"time":1566872285837},{"speed":30.3979,"frequency":1,"time":1566872290821},{"speed":96.5281,"frequency":1,"time":1566872314489},{"speed":174.0889,"frequency":1,"time":1566872358278},{"speed":93.4947,"frequency":1,"time":1566872372611}],"total_dosage":[{"speed":130.3772,"frequency":1,"time":1566680913507},{"speed":40.2066,"frequency":1,"time":1566680916982},{"speed":30.7367,"frequency":1,"time":1566680917326},{"speed":134.5882,"frequency":1,"time":1566862229402},{"speed":159.9525,"frequency":1,"time":1566862318789},{"speed":32.8158,"frequency":1,"time":1566862320456},{"speed":32.6333,"frequency":1,"time":1566862321897},{"speed":36.5118,"frequency":1,"time":1566862322594},{"speed":88.7652,"frequency":1,"time":1566862422848},{"speed":290.2816,"frequency":1,"time":1566862835748},{"speed":33.2655,"frequency":1,"time":1566862845355},{"speed":84.4052,"frequency":1,"time":1566862948153},{"speed":98.2158,"frequency":1,"time":1566863028643},{"speed":208.4872,"frequency":1,"time":1566863031309},{"speed":32.3673,"frequency":1,"time":1566863031968},{"speed":157.3674,"frequency":1,"time":1566872314550},{"speed":291.5093,"frequency":1,"time":1566872358396},{"speed":93.8211,"frequency":1,"time":1566872372611}],"county":[{"speed":0.1204,"frequency":1,"time":1566862318630},{"speed":0.0187,"frequency":1,"time":1566862320423},{"speed":0.0073,"frequency":1,"time":1566862321864},{"speed":0.0085,"frequency":1,"time":1566862322557},{"speed":0.1113,"frequency":1,"time":1566862422759},{"speed":0.0325,"frequency":1,"time":1566862835458},{"speed":0.0136,"frequency":1,"time":1566862845322},{"speed":0.1122,"frequency":1,"time":1566862948069},{"speed":0.0968,"frequency":1,"time":1566863028546},{"speed":0.0321,"frequency":1,"time":1566863031100},{"speed":0.0082,"frequency":1,"time":1566863031935},{"speed":0.2383,"frequency":1,"time":1566872314394},{"speed":0.046,"frequency":1,"time":1566872358105},{"speed":0.02,"frequency":1,"time":1566872372518}],"total_manufactured":[{"speed":22696.0117,"frequency":1,"time":1566872337090},{"speed":22010.3666,"frequency":1,"time":1566872380116},{"speed":22394.0614,"frequency":1,"time":1566872394912}]},"County":{"name":[{"speed":0.1324,"frequency":1,"time":1566862318630},{"speed":0.0118,"frequency":1,"time":1566862320424},{"speed":0.0089,"frequency":1,"time":1566862321864},{"speed":0.0082,"frequency":1,"time":1566862322558},{"speed":0.0725,"frequency":1,"time":1566862422760},{"speed":0.022,"frequency":1,"time":1566862835459},{"speed":0.0123,"frequency":1,"time":1566862845323},{"speed":0.0788,"frequency":1,"time":1566862948070},{"speed":0.0678,"frequency":3,"time":1566863028546},{"speed":0.0137,"frequency":4,"time":1566863031100},{"speed":0.0208,"frequency":1,"time":1566863031935},{"speed":1.623,"frequency":1,"time":1566872314397},{"speed":0.898,"frequency":1,"time":1566872358107},{"speed":0.4644,"frequency":1,"time":1566872372519}],"total_dosage":[{"speed":156.1511,"frequency":1,"time":1566872314551},{"speed":288.2766,"frequency":1,"time":1566872358394},{"speed":123.1496,"frequency":1,"time":1566872372642}],"total_manufactured":[{"speed":22694.6626,"frequency":1,"time":1566872337091},{"speed":21998.6363,"frequency":1,"time":1566872380105},{"speed":22392.4522,"frequency":1,"time":1566872394911}]}}
+{
+  "Query": {
+    "state": [
+      {
+        "speed": 0.6141,
+        "frequency": 1,
+        "time": 1566873086821
+      },
+      {
+        "speed": 0.0417,
+        "frequency": 1,
+        "time": 1566873107593
+      },
+      {
+        "speed": 0.5269,
+        "frequency": 1,
+        "time": 1566873428306
+      },
+      {
+        "speed": 0.0268,
+        "frequency": 1,
+        "time": 1566873478712
+      },
+      {
+        "speed": 0.5147,
+        "frequency": 1,
+        "time": 1566874762879
+      },
+      {
+        "speed": 0.5591,
+        "frequency": 1,
+        "time": 1566876902357
+      },
+      {
+        "speed": 0.0223,
+        "frequency": 1,
+        "time": 1566876921917
+      },
+      {
+        "speed": 0.0132,
+        "frequency": 1,
+        "time": 1566876922858
+      },
+      {
+        "speed": 0.0143,
+        "frequency": 1,
+        "time": 1566876923892
+      },
+      {
+        "speed": 0.5975,
+        "frequency": 1,
+        "time": 1566876977931
+      },
+      {
+        "speed": 0.0174,
+        "frequency": 1,
+        "time": 1566876979418
+      },
+      {
+        "speed": 0.0136,
+        "frequency": 1,
+        "time": 1566876980832
+      },
+      {
+        "speed": 0.0146,
+        "frequency": 1,
+        "time": 1566876981648
+      },
+      {
+        "speed": 0.0194,
+        "frequency": 1,
+        "time": 1566876982698
+      },
+      {
+        "speed": 0.0188,
+        "frequency": 1,
+        "time": 1566876985942
+      },
+      {
+        "speed": 0.0227,
+        "frequency": 1,
+        "time": 1566877000999
+      },
+      {
+        "speed": 0.0188,
+        "frequency": 1,
+        "time": 1566877003181
+      },
+      {
+        "speed": 0.0143,
+        "frequency": 1,
+        "time": 1566877003877
+      },
+      {
+        "speed": 0.0186,
+        "frequency": 1,
+        "time": 1566877021848
+      },
+      {
+        "speed": 0.0144,
+        "frequency": 1,
+        "time": 1566877024266
+      },
+      {
+        "speed": 0.0151,
+        "frequency": 1,
+        "time": 1566877024947
+      },
+      {
+        "speed": 0.0146,
+        "frequency": 1,
+        "time": 1566877025701
+      },
+      {
+        "speed": 0.0185,
+        "frequency": 1,
+        "time": 1566877026642
+      },
+      {
+        "speed": 0.0235,
+        "frequency": 1,
+        "time": 1566877530663
+      },
+      {
+        "speed": 0.0141,
+        "frequency": 1,
+        "time": 1566877531353
+      },
+      {
+        "speed": 0.0139,
+        "frequency": 1,
+        "time": 1566877532180
+      },
+      {
+        "speed": 0.0139,
+        "frequency": 1,
+        "time": 1566877533200
+      },
+      {
+        "speed": 0.0139,
+        "frequency": 1,
+        "time": 1566877534175
+      },
+      {
+        "speed": 0.0117,
+        "frequency": 1,
+        "time": 1566877538400
+      },
+      {
+        "speed": 0.0265,
+        "frequency": 1,
+        "time": 1566877540630
+      },
+      {
+        "speed": 0.0122,
+        "frequency": 1,
+        "time": 1566877575458
+      },
+      {
+        "speed": 0.0154,
+        "frequency": 1,
+        "time": 1566877578525
+      },
+      {
+        "speed": 0.0174,
+        "frequency": 1,
+        "time": 1566877579038
+      },
+      {
+        "speed": 0.0147,
+        "frequency": 1,
+        "time": 1566877579739
+      },
+      {
+        "speed": 0.015,
+        "frequency": 1,
+        "time": 1566877580670
+      },
+      {
+        "speed": 0.0164,
+        "frequency": 1,
+        "time": 1566877582217
+      },
+      {
+        "speed": 0.0151,
+        "frequency": 1,
+        "time": 1566877583280
+      },
+      {
+        "speed": 0.0134,
+        "frequency": 1,
+        "time": 1566877584077
+      },
+      {
+        "speed": 0.0157,
+        "frequency": 1,
+        "time": 1566877601277
+      }
+    ]
+  },
+  "State": {
+    "name": [
+      {
+        "speed": 89.1358,
+        "frequency": 1,
+        "time": 1566873086911
+      },
+      {
+        "speed": 104.8366,
+        "frequency": 1,
+        "time": 1566873107698
+      },
+      {
+        "speed": 82.0423,
+        "frequency": 1,
+        "time": 1566873428389
+      },
+      {
+        "speed": 190.9565,
+        "frequency": 1,
+        "time": 1566873478903
+      },
+      {
+        "speed": 89.2489,
+        "frequency": 1,
+        "time": 1566874762969
+      },
+      {
+        "speed": 114.8709,
+        "frequency": 1,
+        "time": 1566876902473
+      },
+      {
+        "speed": 85.1939,
+        "frequency": 1,
+        "time": 1566876922003
+      },
+      {
+        "speed": 27.6513,
+        "frequency": 1,
+        "time": 1566876922886
+      },
+      {
+        "speed": 29.2821,
+        "frequency": 1,
+        "time": 1566876923921
+      },
+      {
+        "speed": 86.4149,
+        "frequency": 1,
+        "time": 1566876978019
+      },
+      {
+        "speed": 29.3544,
+        "frequency": 1,
+        "time": 1566876979448
+      },
+      {
+        "speed": 31.5247,
+        "frequency": 1,
+        "time": 1566876980864
+      },
+      {
+        "speed": 28.7792,
+        "frequency": 1,
+        "time": 1566876981677
+      },
+      {
+        "speed": 29.6021,
+        "frequency": 1,
+        "time": 1566876982728
+      },
+      {
+        "speed": 31.4174,
+        "frequency": 1,
+        "time": 1566876985974
+      }
+    ],
+    "county": [
+      {
+        "speed": 0.078,
+        "frequency": 1,
+        "time": 1566873107594
+      },
+      {
+        "speed": 0.0922,
+        "frequency": 1,
+        "time": 1566873428309
+      },
+      {
+        "speed": 0.0474,
+        "frequency": 1,
+        "time": 1566873478713
+      },
+      {
+        "speed": 0.1079,
+        "frequency": 1,
+        "time": 1566874762881
+      },
+      {
+        "speed": 0.1166,
+        "frequency": 1,
+        "time": 1566876902361
+      },
+      {
+        "speed": 0.1532,
+        "frequency": 1,
+        "time": 1566877001000
+      },
+      {
+        "speed": 0.0215,
+        "frequency": 1,
+        "time": 1566877003181
+      },
+      {
+        "speed": 0.0098,
+        "frequency": 1,
+        "time": 1566877003877
+      },
+      {
+        "speed": 0.0106,
+        "frequency": 1,
+        "time": 1566877021849
+      },
+      {
+        "speed": 0.0104,
+        "frequency": 1,
+        "time": 1566877024267
+      },
+      {
+        "speed": 0.0154,
+        "frequency": 1,
+        "time": 1566877024947
+      },
+      {
+        "speed": 0.0085,
+        "frequency": 1,
+        "time": 1566877025702
+      },
+      {
+        "speed": 0.014,
+        "frequency": 1,
+        "time": 1566877026643
+      },
+      {
+        "speed": 0.0122,
+        "frequency": 1,
+        "time": 1566877530663
+      },
+      {
+        "speed": 0.0106,
+        "frequency": 1,
+        "time": 1566877531353
+      },
+      {
+        "speed": 0.0101,
+        "frequency": 1,
+        "time": 1566877532180
+      },
+      {
+        "speed": 0.0107,
+        "frequency": 1,
+        "time": 1566877533200
+      },
+      {
+        "speed": 0.0117,
+        "frequency": 1,
+        "time": 1566877534175
+      },
+      {
+        "speed": 0.008,
+        "frequency": 1,
+        "time": 1566877538400
+      },
+      {
+        "speed": 0.0176,
+        "frequency": 1,
+        "time": 1566877540631
+      },
+      {
+        "speed": 0.0079,
+        "frequency": 1,
+        "time": 1566877575458
+      },
+      {
+        "speed": 0.01,
+        "frequency": 1,
+        "time": 1566877578526
+      },
+      {
+        "speed": 0.0118,
+        "frequency": 1,
+        "time": 1566877579039
+      },
+      {
+        "speed": 0.021,
+        "frequency": 1,
+        "time": 1566877579740
+      },
+      {
+        "speed": 0.0142,
+        "frequency": 1,
+        "time": 1566877580670
+      },
+      {
+        "speed": 0.0114,
+        "frequency": 1,
+        "time": 1566877582218
+      },
+      {
+        "speed": 0.0081,
+        "frequency": 1,
+        "time": 1566877583280
+      },
+      {
+        "speed": 0.0088,
+        "frequency": 1,
+        "time": 1566877584077
+      },
+      {
+        "speed": 0.0088,
+        "frequency": 1,
+        "time": 1566877601278
+      }
+    ],
+    "total_dosage": [
+      {
+        "speed": 182.8951,
+        "frequency": 1,
+        "time": 1566873107776
+      },
+      {
+        "speed": 80.335,
+        "frequency": 1,
+        "time": 1566873428389
+      },
+      {
+        "speed": 189.9739,
+        "frequency": 1,
+        "time": 1566873478903
+      },
+      {
+        "speed": 93.8649,
+        "frequency": 1,
+        "time": 1566874762975
+      },
+      {
+        "speed": 114.2755,
+        "frequency": 1,
+        "time": 1566876902474
+      },
+      {
+        "speed": 90.388,
+        "frequency": 1,
+        "time": 1566876986033
+      }
+    ]
+  },
+  "County": {
+    "name": [
+      {
+        "speed": 0.0677,
+        "frequency": 1,
+        "time": 1566873107594
+      },
+      {
+        "speed": 0.069,
+        "frequency": 1,
+        "time": 1566873428309
+      },
+      {
+        "speed": 0.8468,
+        "frequency": 1,
+        "time": 1566873478715
+      },
+      {
+        "speed": 0.0969,
+        "frequency": 1,
+        "time": 1566874762882
+      },
+      {
+        "speed": 0.0742,
+        "frequency": 1,
+        "time": 1566876902361
+      },
+      {
+        "speed": 0.0838,
+        "frequency": 1,
+        "time": 1566877001000
+      },
+      {
+        "speed": 0.0115,
+        "frequency": 1,
+        "time": 1566877003181
+      },
+      {
+        "speed": 0.0073,
+        "frequency": 1,
+        "time": 1566877003877
+      },
+      {
+        "speed": 0.0081,
+        "frequency": 1,
+        "time": 1566877021849
+      },
+      {
+        "speed": 0.0108,
+        "frequency": 1,
+        "time": 1566877024267
+      },
+      {
+        "speed": 0.016,
+        "frequency": 1,
+        "time": 1566877024947
+      },
+      {
+        "speed": 0.0096,
+        "frequency": 1,
+        "time": 1566877025702
+      },
+      {
+        "speed": 0.0068,
+        "frequency": 1,
+        "time": 1566877026643
+      },
+      {
+        "speed": 0.0094,
+        "frequency": 1,
+        "time": 1566877530663
+      },
+      {
+        "speed": 0.0074,
+        "frequency": 1,
+        "time": 1566877531353
+      },
+      {
+        "speed": 0.0097,
+        "frequency": 1,
+        "time": 1566877532181
+      },
+      {
+        "speed": 0.0144,
+        "frequency": 1,
+        "time": 1566877533201
+      },
+      {
+        "speed": 0.0104,
+        "frequency": 1,
+        "time": 1566877534175
+      },
+      {
+        "speed": 0.0097,
+        "frequency": 1,
+        "time": 1566877538401
+      },
+      {
+        "speed": 0.0138,
+        "frequency": 1,
+        "time": 1566877540631
+      },
+      {
+        "speed": 0.0095,
+        "frequency": 1,
+        "time": 1566877575459
+      },
+      {
+        "speed": 0.0094,
+        "frequency": 1,
+        "time": 1566877578526
+      },
+      {
+        "speed": 0.0175,
+        "frequency": 1,
+        "time": 1566877579039
+      },
+      {
+        "speed": 0.0111,
+        "frequency": 1,
+        "time": 1566877579740
+      },
+      {
+        "speed": 0.0113,
+        "frequency": 1,
+        "time": 1566877580670
+      },
+      {
+        "speed": 0.012,
+        "frequency": 1,
+        "time": 1566877582218
+      },
+      {
+        "speed": 0.0101,
+        "frequency": 1,
+        "time": 1566877583280
+      },
+      {
+        "speed": 0.0095,
+        "frequency": 1,
+        "time": 1566877584077
+      },
+      {
+        "speed": 0.0077,
+        "frequency": 1,
+        "time": 1566877601278
+      }
+    ],
+    "total_dosage": [
+      {
+        "speed": 194.4138,
+        "frequency": 1,
+        "time": 1566873478908
+      }
+    ]
+  }
+}

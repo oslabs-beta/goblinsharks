@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/main.js",
   "bin": {
-    "goblinql2": "./bin/goblin.js"
+    "goblin": "./bin/exec.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

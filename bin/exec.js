@@ -4,10 +4,10 @@ const goblin = require('commander');
 const path = require('path')
 
 goblin
-  .command('server')
-  .alias('s')
+  .command('monitor')
+  .alias('m')
   .description('Start GoblinQL Monitoring')
-  .action(() => exec(`node ${__dirname}/wsServer.js & sleep 0.25; open http://localhost:9000` ))
+  .action(() => exec(`node ${__dirname}/server/wsServer.js & sleep 0.25; open http://localhost:9000` ))
 
 goblin.parse(process.argv);
 
