@@ -11,18 +11,30 @@ const wss = new WebSocket({
 
 httpServer.on('request', app);
 
-// broadcast to subscribers using websockets
-function broadcast(data){
-  wss.clients.forEach((ws)=>{
-    ws.send(data);
+wss.on('connection', (ws) => {
+  console.log('Websocket connection established');
+  fs.watchFile(path.join(__dirname,'./db/data.json'),(data) => {
+    // broadcast(data);
+    console.log(data);
+    ws.send(JSON.stringify(data));
+    console.log('file changed');
   })
-}
+});
+// broadcast to subscribers using websockets
+// function broadcast(data){
+//   console.log('broadcasting data');
+//   console.log(data);
+//   console.log(wss.clients);
+//   wss.on('connection', (ws) => {
+//     ws.send(data);
+//   });
+// }
 
 // looking at file changes to data.json every 5 secs
-fs.watchFile(path.join(__dirname,'./db/data.json'),(data) => {
-  broadcast(data);
-  console.log('file changed');
-})
+// fs.watchFile(path.join(__dirname,'./db/data.json'),(data) => {
+//   broadcast(data);
+//   console.log('file changed');
+// })
 
 
 

@@ -8,7 +8,7 @@ console.log('connected to server');
 
 app.use(express.static(__dirname));
 
-app.get('/goblinql', (req, res) => {
+app.get('/', (req, res) => {
   res.status(200).sendFile(path.join(__dirname + '/index.html'));
 });
 
