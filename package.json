@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/main.js",
   "bin": {
-    "goblinql2": "./bin/goblin.js"
+    "goblin": "./bin/exec.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,6 +18,8 @@
     "express": "^4.17.1",
     "nodemon": "^1.19.1",
     "performance-now": "^2.1.0",
-    "sleep-ms": "^2.0.1"
+    "sleep-ms": "^2.0.1",
+    "uniqid": "^5.0.3",
+    "ws": "^7.1.2"
   }
 }

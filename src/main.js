@@ -1,22 +1,13 @@
-const enableTracking = require('./enableTracking.js')
-const mockResolvers = require('../testResolvers/mockResolvers')
 const mapResolvers = require("./mapResolvers")
-const { createFile } = require('./db/fileController')
+const { trackError } = require("../bin/db/fileController.js")
 
 
-class EnableMonitoring{
-  constructor(resolvers){
-    this.resolvers =  mapResolvers(resolvers);
-  }
-}
-
-// - - - test case - - - 
-// old resolvers
-const resolvers = mockResolvers.stateTypeResolvers;
-// new resolvers
-// const injectedResolvers = new EnableMonitoring(resolvers);
-// console.log(resolvers)
-// console.log(injectedResolvers);
+const enableMonitoring = (resolvers) => {
+const injectedResolvers = mapResolvers(resolvers)
+return injectedResolvers
+};
 
 
-module.exports = EnableMonitoring
+
+
+module.exports = { enableMonitoring, trackError}

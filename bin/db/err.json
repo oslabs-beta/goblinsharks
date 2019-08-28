@@ -1,0 +1,562 @@
+{
+  "errors": [
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566949016121,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952368434,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952452448,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952533598,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952594895,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952897304,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952898799,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952899705,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952900146,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952900571,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952931366,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952934292,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952937298,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952937891,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952964594,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952967243,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952976226,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952978091,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566952978553,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566953006365,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566953012198,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566953016411,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "function dsum(bigint) does not exist",
+      "path": [
+        "state",
+        "total_dosage"
+      ],
+      "time": 1566953021769,
+      "stacktrace": [
+        "error: function dsum(bigint) does not exist",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "syntax error at or near \"SELECT\"",
+      "path": [
+        "state",
+        "name"
+      ],
+      "time": 1566953097526,
+      "stacktrace": [
+        "error: syntax error at or near \"SELECT\"",
+        "    at Connection.parseE (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:604:11)",
+        "    at Connection.parseMessage (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:401:19)",
+        "    at Socket.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/pg/lib/connection.js:121:22)",
+        "    at Socket.emit (events.js:198:13)",
+        "    at addChunk (_stream_readable.js:288:12)",
+        "    at readableAddChunk (_stream_readable.js:269:11)",
+        "    at Socket.Readable.push (_stream_readable.js:224:10)",
+        "    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)"
+      ]
+    },
+    {
+      "message": "Cannot query field \"named\" on type \"State\". Did you mean \"name\"?",
+      "time": 1566964064529,
+      "stacktrace": [
+        "GraphQLError: Cannot query field \"named\" on type \"State\". Did you mean \"name\"?",
+        "    at Object.Field (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/validation/rules/FieldsOnCorrectType.js:53:31)",
+        "    at Object.enter (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:324:29)",
+        "    at Object.enter (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:375:25)",
+        "    at visit (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:242:26)",
+        "    at Object.validate (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/validation/validate.js:73:24)",
+        "    at validate (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:211:32)",
+        "    at Object.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:124:42)",
+        "    at Generator.next (<anonymous>)",
+        "    at fulfilled (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:4:58)",
+        "    at process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    },
+    {
+      "message": "Cannot query field \"named\" on type \"State\". Did you mean \"name\"?",
+      "time": 1566964067105,
+      "stacktrace": [
+        "GraphQLError: Cannot query field \"named\" on type \"State\". Did you mean \"name\"?",
+        "    at Object.Field (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/validation/rules/FieldsOnCorrectType.js:53:31)",
+        "    at Object.enter (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:324:29)",
+        "    at Object.enter (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:375:25)",
+        "    at visit (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:242:26)",
+        "    at Object.validate (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/validation/validate.js:73:24)",
+        "    at validate (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:211:32)",
+        "    at Object.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:124:42)",
+        "    at Generator.next (<anonymous>)",
+        "    at fulfilled (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:4:58)",
+        "    at process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    },
+    {
+      "message": "Cannot query field \"named\" on type \"State\". Did you mean \"name\"?",
+      "time": 1566964067266,
+      "stacktrace": [
+        "GraphQLError: Cannot query field \"named\" on type \"State\". Did you mean \"name\"?",
+        "    at Object.Field (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/validation/rules/FieldsOnCorrectType.js:53:31)",
+        "    at Object.enter (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:324:29)",
+        "    at Object.enter (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:375:25)",
+        "    at visit (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:242:26)",
+        "    at Object.validate (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/validation/validate.js:73:24)",
+        "    at validate (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:211:32)",
+        "    at Object.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:124:42)",
+        "    at Generator.next (<anonymous>)",
+        "    at fulfilled (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:4:58)",
+        "    at process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    },
+    {
+      "message": "Cannot query field \"nameadsada\" on type \"State\".",
+      "time": 1566964076503,
+      "stacktrace": [
+        "GraphQLError: Cannot query field \"nameadsada\" on type \"State\".",
+        "    at Object.Field (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/validation/rules/FieldsOnCorrectType.js:53:31)",
+        "    at Object.enter (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:324:29)",
+        "    at Object.enter (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:375:25)",
+        "    at visit (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:242:26)",
+        "    at Object.validate (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/validation/validate.js:73:24)",
+        "    at validate (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:211:32)",
+        "    at Object.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:124:42)",
+        "    at Generator.next (<anonymous>)",
+        "    at fulfilled (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:4:58)",
+        "    at process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    },
+    {
+      "message": "Cannot query field \"nameadsada\" on type \"State\".",
+      "time": 1566964076888,
+      "stacktrace": [
+        "GraphQLError: Cannot query field \"nameadsada\" on type \"State\".",
+        "    at Object.Field (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/validation/rules/FieldsOnCorrectType.js:53:31)",
+        "    at Object.enter (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:324:29)",
+        "    at Object.enter (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:375:25)",
+        "    at visit (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:242:26)",
+        "    at Object.validate (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/validation/validate.js:73:24)",
+        "    at validate (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:211:32)",
+        "    at Object.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:124:42)",
+        "    at Generator.next (<anonymous>)",
+        "    at fulfilled (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:4:58)",
+        "    at process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    },
+    {
+      "message": "Cannot query field \"nameadsada\" on type \"State\".",
+      "time": 1566964076991,
+      "stacktrace": [
+        "GraphQLError: Cannot query field \"nameadsada\" on type \"State\".",
+        "    at Object.Field (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/validation/rules/FieldsOnCorrectType.js:53:31)",
+        "    at Object.enter (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:324:29)",
+        "    at Object.enter (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:375:25)",
+        "    at visit (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/language/visitor.js:242:26)",
+        "    at Object.validate (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/validation/validate.js:73:24)",
+        "    at validate (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:211:32)",
+        "    at Object.<anonymous> (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:124:42)",
+        "    at Generator.next (<anonymous>)",
+        "    at fulfilled (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:4:58)",
+        "    at process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    }
+  ]
+}

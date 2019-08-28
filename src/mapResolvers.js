@@ -1,7 +1,4 @@
 const enableTracking = require("./enableTracking")
-const { createFile } = require("./db/fileController")
-
-
 
 function mapResolvers(originalResolversObject) {
   const updatedResolvers = {}
