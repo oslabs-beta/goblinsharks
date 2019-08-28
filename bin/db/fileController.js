@@ -1,6 +1,7 @@
 const fs = require('fs').promises;
-const path = require('path')
-const jsonData = require("./data.json")
+const path = require('path');
+const jsonData = require("./data.json");
+const errData = require('./err.json');
 
 async function createFile(filename) {
     try { // if file does not exist. 
@@ -29,10 +30,37 @@ async function appendFile(queryKey,resolverName,speed,id){
   } catch {
     console.log('unable to append')
   }
-}
+};
+
+async function trackError (err, time) {
+  try{
+    const { extensions, message } = err; // declaring path separately to avoid overwriting path module
+    const resolverPath = err.path 
+    const errObj = {
+      message,
+      path : resolverPath,
+      time,
+      stacktrace: extensions.exception.stacktrace
+    }
+    if (!errData.errors) {
+      errData.errors = [];
+    }
+    errData.errors.push(errObj)
+    console.log(errData)
+    console.log('dirname inside of filecontroller', __dirname);
+    await fs.writeFile(path.join(__dirname,'err.json'), JSON.stringify(errData,null,2))
+    // await fs.writeFile(path.join(__dirname,'errors.json'), JSON.stringify({},null,2))
+  } catch(e) {
+    console.log(e)
+    console.log('unable to track errors')
+  }
+  // console.log(err);
+
+};
 
 
 module.exports = {
   createFile,
-  appendFile
+  appendFile,
+  trackError
 }

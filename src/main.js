@@ -1,4 +1,5 @@
 const mapResolvers = require("./mapResolvers")
+const { trackError } = require("../bin/db/fileController.js")
 
 
 const enableMonitoring = (resolvers) => {
@@ -9,4 +10,4 @@ return injectedResolvers
 
 
 
-module.exports = enableMonitoring
+module.exports = { enableMonitoring, trackError}

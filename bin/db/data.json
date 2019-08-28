@@ -2,104 +2,56 @@
   "Query": {
     "state": [
       {
-        "speed": 0.5063,
+        "speed": 0.5189,
         "frequency": 1,
-        "time": 1566928337732,
-        "id": "xicjzu4obb8"
+        "time": 1566953230035,
+        "id": "12n6jzujhuc3"
       },
       {
-        "speed": 0.019,
+        "speed": 0.0259,
         "frequency": 1,
-        "time": 1566928364455,
-        "id": "xicjzu4ovxj"
+        "time": 1566953254543,
+        "id": "12n6jzujid8v"
+      },
+      {
+        "speed": 0.6509,
+        "frequency": 1,
+        "time": 1566964058218,
+        "id": "13e7jzupxxey"
+      },
+      {
+        "speed": 0.0219,
+        "frequency": 1,
+        "time": 1566964079516,
+        "id": "13e7jzupyduk"
       }
     ]
   },
   "State": {
-    "county": [
-      {
-        "speed": 0.068,
-        "frequency": 1,
-        "time": 1566928337734,
-        "id": "xicjzu4obb8"
-      },
-      {
-        "speed": 0.0217,
-        "frequency": 1,
-        "time": 1566928364456,
-        "id": "xicjzu4ovxj"
-      }
-    ],
-    "total_dosage": [
-      {
-        "speed": 273.4696,
-        "frequency": 1,
-        "time": 1566928338006,
-        "id": "xicjzu4obb8"
-      },
-      {
-        "speed": 48.5845,
-        "frequency": 1,
-        "time": 1566928364504,
-        "id": "xicjzu4ovxj"
-      }
-    ],
-    "total_manufactured": [
-      {
-        "speed": 21261.0641,
-        "frequency": 1,
-        "time": 1566928358995,
-        "id": "xicjzu4obb8"
-      },
-      {
-        "speed": 20992.4431,
-        "frequency": 1,
-        "time": 1566928385448,
-        "id": "xicjzu4ovxj"
-      }
-    ]
-  },
-  "County": {
     "name": [
       {
-        "speed": 0.758,
+        "speed": 101.998,
         "frequency": 1,
-        "time": 1566928337735,
-        "id": "xicjzu4obb8"
+        "time": 1566953230137,
+        "id": "12n6jzujhuc3"
       },
       {
-        "speed": 0.0539,
+        "speed": 113.1981,
         "frequency": 1,
-        "time": 1566928364456,
-        "id": "xicjzu4ovxj"
-      }
-    ],
-    "total_dosage": [
-      {
-        "speed": 272.5015,
-        "frequency": 1,
-        "time": 1566928338007,
-        "id": "xicjzu4obb8"
+        "time": 1566953254657,
+        "id": "12n6jzujid8v"
       },
       {
-        "speed": 133.5282,
+        "speed": 131.8722,
         "frequency": 1,
-        "time": 1566928364589,
-        "id": "xicjzu4ovxj"
-      }
-    ],
-    "total_manufactured": [
-      {
-        "speed": 21258.3124,
-        "frequency": 1,
-        "time": 1566928358994,
-        "id": "xicjzu4obb8"
+        "time": 1566964058351,
+        "id": "13e7jzupxxey"
       },
       {
-        "speed": 21046.5879,
+        "speed": 90.4416,
         "frequency": 1,
-        "time": 1566928385503,
-        "id": "xicjzu4ovxj"
+        "time": 1566964079607,
+        "id": "13e7jzupyduk"
       }
     ]
   }
