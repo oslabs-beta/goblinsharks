@@ -8,18 +8,37 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "Andrew Tang, Justin Fung, Billy Lee, Sorouuush",
   "license": "ISC",
   "dependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.2.1",
+    "chart.js": "^2.8.0",
     "commander": "^3.0.0",
     "express": "^4.17.1",
     "nodemon": "^1.19.1",
     "performance-now": "^2.1.0",
+    "react": "^16.9.0",
+    "react-chartjs-2": "^2.7.6",
+    "react-dom": "^16.9.0",
     "sleep-ms": "^2.0.1",
     "uniqid": "^5.0.3",
     "ws": "^7.1.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
   }
 }
