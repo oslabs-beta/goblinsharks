@@ -1,0 +1,70 @@
+#modeOverview {
+  position: absolute;
+  background: #f3f3f3;
+  width: 1000px;
+  bottom: 0px;
+  top: 100px;
+  padding: 10px;
+}
+
+.overview-content {
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.overview-content-whitebg {
+  background: #fff;
+  padding: 5px;
+}
+
+.content-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+#overview-summary-statistics-wrapper {
+  justify-content: space-around;
+  display: flex;
+}
+
+.overview-summary-statistic-stat {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.overview-summary-statistic-val {
+  color: orange;
+  font-size: 3em;
+}
+
+.overview-summary-statistic-statval {
+  text-align: center;
+}
+
+.chart-wrapper {
+  height: 200px;
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+}
+
+
+
+.modeOverview .overview-summary {
+  
+}
+
+.modeOverview .overview-requests {
+  
+}
+
+.modeOverview .overview-response {
+  
+}
+
+.modeOverview .overview-errors {
+  
+}

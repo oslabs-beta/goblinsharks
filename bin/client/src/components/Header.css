@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  padding: .5em;
+}
+
+.active {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.header .header-logo {
+  display: flex;
+  font-size: 2em;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.header .header-navigation {
+  justify-content: space-between;
+  display: flex;
+}
+
+.header-navigation-item {
+  margin: 0em 1em 0em 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #a0a0a0;
+}
+
+.header .header-moreinformation {
+  justify-content: space-between;
+  display: flex;
+  margin-right: 50px;
+}
+
+.svg_icons{
+  transform: scale(1.8);
+  padding: 0em .5em 0em .5em;
+}
