@@ -4002,6 +4002,156 @@
         "frequency": 1,
         "time": 1567047211060,
         "id": "1cb5jzw3g6k4"
+      },
+      {
+        "speed": 0.9365,
+        "frequency": 1,
+        "time": 1567050423225,
+        "id": "1dsajzw5d12x"
+      },
+      {
+        "speed": 0.0181,
+        "frequency": 1,
+        "time": 1567050423949,
+        "id": "1dsajzw5d1n1"
+      },
+      {
+        "speed": 0.0398,
+        "frequency": 1,
+        "time": 1567050424488,
+        "id": "1dsajzw5d220"
+      },
+      {
+        "speed": 0.0203,
+        "frequency": 1,
+        "time": 1567050424636,
+        "id": "1dsajzw5d264"
+      },
+      {
+        "speed": 0.0176,
+        "frequency": 1,
+        "time": 1567050424787,
+        "id": "1dsajzw5d2ab"
+      },
+      {
+        "speed": 0.0197,
+        "frequency": 1,
+        "time": 1567050424934,
+        "id": "1dsajzw5d2ee"
+      },
+      {
+        "speed": 0.0477,
+        "frequency": 1,
+        "time": 1567050425077,
+        "id": "1dsajzw5d2id"
+      },
+      {
+        "speed": 0.0202,
+        "frequency": 1,
+        "time": 1567050425224,
+        "id": "1dsajzw5d2mg"
+      },
+      {
+        "speed": 0.0188,
+        "frequency": 1,
+        "time": 1567050425605,
+        "id": "1dsajzw5d2x1"
+      },
+      {
+        "speed": 0.0142,
+        "frequency": 1,
+        "time": 1567050425750,
+        "id": "1dsajzw5d312"
+      },
+      {
+        "speed": 0.0136,
+        "frequency": 1,
+        "time": 1567050425911,
+        "id": "1dsajzw5d35j"
+      },
+      {
+        "speed": 0.013,
+        "frequency": 1,
+        "time": 1567050426054,
+        "id": "1dsajzw5d39i"
+      },
+      {
+        "speed": 0.0206,
+        "frequency": 1,
+        "time": 1567050426190,
+        "id": "1dsajzw5d3da"
+      },
+      {
+        "speed": 0.014,
+        "frequency": 1,
+        "time": 1567050426351,
+        "id": "1dsajzw5d3hr"
+      },
+      {
+        "speed": 0.0132,
+        "frequency": 1,
+        "time": 1567050426510,
+        "id": "1dsajzw5d3m6"
+      },
+      {
+        "speed": 0.0227,
+        "frequency": 1,
+        "time": 1567050426668,
+        "id": "1dsajzw5d3qk"
+      },
+      {
+        "speed": 0.016,
+        "frequency": 1,
+        "time": 1567050426817,
+        "id": "1dsajzw5d3up"
+      },
+      {
+        "speed": 0.0177,
+        "frequency": 1,
+        "time": 1567050427830,
+        "id": "1dsajzw5d4mu"
+      },
+      {
+        "speed": 0.0262,
+        "frequency": 1,
+        "time": 1567050433715,
+        "id": "1dsajzw5d96b"
+      },
+      {
+        "speed": 0.0204,
+        "frequency": 1,
+        "time": 1567050434673,
+        "id": "1dsajzw5d9wx"
+      },
+      {
+        "speed": 0.027,
+        "frequency": 1,
+        "time": 1567050435661,
+        "id": "1dsajzw5daod"
+      },
+      {
+        "speed": 0.0129,
+        "frequency": 1,
+        "time": 1567050436360,
+        "id": "1dsajzw5db7s"
+      },
+      {
+        "speed": 0.0217,
+        "frequency": 1,
+        "time": 1567050436620,
+        "id": "1dsajzw5dbf0"
+      },
+      {
+        "speed": 0.0222,
+        "frequency": 1,
+        "time": 1567050436875,
+        "id": "1dsajzw5dbm3"
+      },
+      {
+        "speed": 0.0196,
+        "frequency": 1,
+        "time": 1567050436998,
+        "id": "1dsajzw5dbpi"
       }
     ]
   },
@@ -8008,6 +8158,156 @@
         "frequency": 1,
         "time": 1567047211097,
         "id": "1cb5jzw3g6k4"
+      },
+      {
+        "speed": 81.3958,
+        "frequency": 1,
+        "time": 1567050423311,
+        "id": "1dsajzw5d12x"
+      },
+      {
+        "speed": 30.9907,
+        "frequency": 1,
+        "time": 1567050423982,
+        "id": "1dsajzw5d1n1"
+      },
+      {
+        "speed": 29.3329,
+        "frequency": 1,
+        "time": 1567050424521,
+        "id": "1dsajzw5d220"
+      },
+      {
+        "speed": 32.5,
+        "frequency": 1,
+        "time": 1567050424672,
+        "id": "1dsajzw5d264"
+      },
+      {
+        "speed": 28.3125,
+        "frequency": 1,
+        "time": 1567050424818,
+        "id": "1dsajzw5d2ab"
+      },
+      {
+        "speed": 29.4951,
+        "frequency": 1,
+        "time": 1567050424967,
+        "id": "1dsajzw5d2ee"
+      },
+      {
+        "speed": 29.5965,
+        "frequency": 1,
+        "time": 1567050425108,
+        "id": "1dsajzw5d2id"
+      },
+      {
+        "speed": 29.4572,
+        "frequency": 1,
+        "time": 1567050425256,
+        "id": "1dsajzw5d2mg"
+      },
+      {
+        "speed": 32.0414,
+        "frequency": 1,
+        "time": 1567050425641,
+        "id": "1dsajzw5d2x1"
+      },
+      {
+        "speed": 29.3517,
+        "frequency": 1,
+        "time": 1567050425781,
+        "id": "1dsajzw5d312"
+      },
+      {
+        "speed": 27.7692,
+        "frequency": 1,
+        "time": 1567050425942,
+        "id": "1dsajzw5d35j"
+      },
+      {
+        "speed": 28.6911,
+        "frequency": 1,
+        "time": 1567050426085,
+        "id": "1dsajzw5d39i"
+      },
+      {
+        "speed": 28.8129,
+        "frequency": 1,
+        "time": 1567050426221,
+        "id": "1dsajzw5d3da"
+      },
+      {
+        "speed": 27.5143,
+        "frequency": 1,
+        "time": 1567050426382,
+        "id": "1dsajzw5d3hr"
+      },
+      {
+        "speed": 28.438,
+        "frequency": 1,
+        "time": 1567050426541,
+        "id": "1dsajzw5d3m6"
+      },
+      {
+        "speed": 30.2041,
+        "frequency": 1,
+        "time": 1567050426701,
+        "id": "1dsajzw5d3qk"
+      },
+      {
+        "speed": 28.8413,
+        "frequency": 1,
+        "time": 1567050426848,
+        "id": "1dsajzw5d3up"
+      },
+      {
+        "speed": 29.7326,
+        "frequency": 1,
+        "time": 1567050427863,
+        "id": "1dsajzw5d4mu"
+      },
+      {
+        "speed": 31.063,
+        "frequency": 1,
+        "time": 1567050433748,
+        "id": "1dsajzw5d96b"
+      },
+      {
+        "speed": 31.4963,
+        "frequency": 1,
+        "time": 1567050434707,
+        "id": "1dsajzw5d9wx"
+      },
+      {
+        "speed": 31.0153,
+        "frequency": 1,
+        "time": 1567050435695,
+        "id": "1dsajzw5daod"
+      },
+      {
+        "speed": 29.0172,
+        "frequency": 1,
+        "time": 1567050436392,
+        "id": "1dsajzw5db7s"
+      },
+      {
+        "speed": 29.1929,
+        "frequency": 1,
+        "time": 1567050436651,
+        "id": "1dsajzw5dbf0"
+      },
+      {
+        "speed": 29.3207,
+        "frequency": 1,
+        "time": 1567050436908,
+        "id": "1dsajzw5dbm3"
+      },
+      {
+        "speed": 28.4869,
+        "frequency": 1,
+        "time": 1567050437029,
+        "id": "1dsajzw5dbpi"
       }
     ],
     "total_dosage": [
