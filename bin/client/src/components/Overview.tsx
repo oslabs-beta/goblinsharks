@@ -50,7 +50,6 @@ type ResolversData = {
  * @param props 
  */
 function OverviewSummary(props: any) {
-  console.log("line 51: ", props);
   // Render the summary statistics according to the following.
   return (
     <div id="overview-summary" className="overview-content">
@@ -84,7 +83,6 @@ function OverviewSummary(props: any) {
  * @param props 
  */
 function OverviewRequests(props: any) {
-  console.log('overviewrequests props:', props);
   // Chart.js data.
   const chartData = {
     labels: props.requests.times.slice(-100),
@@ -141,7 +139,6 @@ function OverviewRequests(props: any) {
  */
 function OverviewResponse(props: any) {
   // Chart.js data.
-  console.log('overviewresponse props:', props);
   const chartData = {
     labels: props.resolvers['times'].slice(-100),
     datasets: [
@@ -206,7 +203,6 @@ function OverviewErrors() {
  * @param props 
  */
 function Overview(props: OverviewProps) {
-  console.log('line 209: ', props);
   return (
     <div id="modeOverview">
       <OverviewSummary summary={props.overviewData.summary} averageTime={props.resolversData.averageTime}/>

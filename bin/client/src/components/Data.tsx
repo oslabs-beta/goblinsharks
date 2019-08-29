@@ -218,11 +218,6 @@ function getOverviewData (data: object) {
         rtnObj['count']++;
         rtnObj['ave'] = ( rtnObj['ave'] * (rtnObj['count']-1) / rtnObj['count'] )
                         + ( request.speed / rtnObj['count'] );
-        
-        if (rtnObj['count']<100) {
-          console.log("count: ", rtnObj['count']);
-          console.log("ave: ", rtnObj['ave']);
-        };
       })
     }
  

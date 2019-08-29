@@ -6,3 +6,42 @@
   top: 100px;
   padding: 10px;
 }
+
+
+.resolverListItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.resolvers-content {
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+
+#resolvers-popularity{
+
+}
+
+#resolvers-title{
+
+}
+
+
+
+#resolvers-popularitylist-wrapper {
+  height: 200px;
+  overflow: scroll;
+}
+
+.content-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.resolvers-content-whitebg {
+  background: #fff;
+  padding: 5px;
+}
