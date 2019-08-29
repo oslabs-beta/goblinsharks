@@ -144,6 +144,7 @@ function getOverviewData (data: object) {
     summary: getOverviewSummaryData(data),
     requests: getOverviewRequestsData(data),
     response: getOverviewResponseData(data),
+    resolvers: getOverviewResolversData(data)
   };
 
   // Gets summary data from 'data'.
@@ -236,6 +237,46 @@ function getOverviewData (data: object) {
     return rtnObj;
   };
 
+  // Execution Times data.
+  function getOverviewResolversData(data: object) {
+    // Init an object to hold our analysis.
+    const rtnObj = {
+      'times': [''],
+      'aveSpeed': [null]
+    };
+
+    const tempData = { "speed": {} , "counts": {} };
+    // Init a recursive funtion to count nested resolvers.
+    const recurseSpeed = (key: any, element: any) => {
+      if (Array.isArray(element)) {
+        
+        element.forEach(request => {
+          let bin = Number(Math.floor((request.time - minTS)/1000)*1000 + minTS);
+          tempData["counts"][bin] = bin in tempData["counts"] ? tempData["counts"][bin] + 1 : 1;
+          tempData["speed"][bin] = bin in tempData["speed"] ? 
+                                 ((tempData["counts"][bin] - 1) * tempData["speed"][bin] / tempData["counts"][bin])
+                                 + (request.speed / tempData["counts"][bin]) : request.speed;
+        });
+
+      } else for (let el in element) recurseSpeed(key + ":" + el, element[el]);
+    }
+
+    // Iterate through top level Resolvers.
+    for (let key in data) if (key !== "Query") recurseSpeed(key, data[key]);
+
+    // Cast the counts obj to array and sort.
+    const tempDataAsSortedArray = Object.keys(tempData["speed"])
+                                        .map(key => [Number(key), tempData['speed'][key]])
+                                        .sort((a, b)=> a[0] - b[0]);
+    
+    rtnObj["times"] = tempDataAsSortedArray.map(el => new Date(el[0]).toTimeString().split(' ')[0]);
+    rtnObj["aveSpeed"] = tempDataAsSortedArray.map(el => el[1]);
+  
+    // Return
+    return rtnObj;
+  }
+
+
   // Return.
   return returnData;
 }
@@ -291,6 +332,7 @@ function getResolversData(data: object) {
     // Return
     return rtnObj;
   }
+
 
   // Get Average Times data.
   let sumAve = 0.0;
