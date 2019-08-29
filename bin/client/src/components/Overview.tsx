@@ -44,7 +44,7 @@ type OverviewData = {
 function OverviewSummary(props: any) {
   // An array statistics.
   // console.log(props.summary);
-  const summaryItems = ['Total Requests', 'Average Resolution Time'];
+  const summaryItems = ['Total Requests', 'Average Resolution 1337 test Time'];
 
   // Map statistics to a list.
   const summaryItemsList = summaryItems.map((statistic: string) => {

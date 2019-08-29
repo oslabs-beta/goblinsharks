@@ -4152,6 +4152,12 @@
         "frequency": 1,
         "time": 1567050436998,
         "id": "1dsajzw5dbpi"
+      },
+      {
+        "speed": 0.5924,
+        "frequency": 1,
+        "time": 1567054168255,
+        "id": "1e8tjzw7larj"
       }
     ]
   },
@@ -8308,6 +8314,12 @@
         "frequency": 1,
         "time": 1567050437029,
         "id": "1dsajzw5dbpi"
+      },
+      {
+        "speed": 84.7484,
+        "frequency": 1,
+        "time": 1567054168343,
+        "id": "1e8tjzw7larj"
       }
     ],
     "total_dosage": [
