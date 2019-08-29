@@ -21,7 +21,8 @@ interface OverviewProps  {
 type OverviewData = {
   summary: Object,
   requests: Object,
-  response: Object
+  response: Object,
+  resolvers: Object
 }
 
 type ResolversData = {
@@ -86,7 +87,7 @@ function OverviewRequests(props: any) {
   console.log('overviewrequests props:', props);
   // Chart.js data.
   const chartData = {
-    labels: props.requests.times,
+    labels: props.requests.times.slice(-100),
     datasets: [
       {
         label: 'Requests Per Second',
@@ -107,7 +108,7 @@ function OverviewRequests(props: any) {
         pointHoverBorderWidth: 2,
         pointRadius: 1,
         pointHitRadius: 10,
-        data: props.requests.rpm
+        data: props.requests.rpm.slice(-100)
       }
     ]
   };
@@ -142,7 +143,7 @@ function OverviewResponse(props: any) {
   // Chart.js data.
   console.log('overviewresponse props:', props);
   const chartData = {
-    labels: props.response.times,
+    labels: props.resolvers['times'].slice(-100),
     datasets: [
       {
         label: 'Response Time',
@@ -163,7 +164,7 @@ function OverviewResponse(props: any) {
         pointHoverBorderWidth: 2,
         pointRadius: 1,
         pointHitRadius: 10,
-        data: props.response["90"]
+        data: props.resolvers["aveSpeed"].slice(-100)
       }
     ]
   };
@@ -178,9 +179,9 @@ function OverviewResponse(props: any) {
   return (
     <div id="overview-response" className="overview-content">
       <div id="overview-response-title" className="content-title overview-content-whitebg">
-        <b>Response Time (90th Percentile)</b> this session:
+        <b>Response Time 90 (ms)</b> this session:
       </div>
-      <div id="overview-response-chart-wrapper" className="chart-wrapper overview-content-whitebg">
+      <div id="overview-resolvers-chart-wrapper" className="chart-wrapper overview-content-whitebg">
         <Line data={chartData} options={chartOptions} />
       </div>
     </div>
@@ -205,11 +206,12 @@ function OverviewErrors() {
  * @param props 
  */
 function Overview(props: OverviewProps) {
+  console.log('line 209: ', props);
   return (
     <div id="modeOverview">
       <OverviewSummary summary={props.overviewData.summary} averageTime={props.resolversData.averageTime}/>
       <OverviewRequests requests={props.overviewData.requests} />
-      <OverviewResponse response={props.overviewData.response} />
+      <OverviewResponse resolvers={props.overviewData.resolvers} />
       <OverviewErrors />
     </div>
   )
