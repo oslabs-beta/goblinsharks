@@ -180,6 +180,12 @@
         "frequency": 1,
         "time": 1567044412196,
         "id": "1cb5jzw1s6xw"
+      },
+      {
+        "speed": 0.157,
+        "frequency": 1,
+        "time": 1567045279135,
+        "id": "1cb5jzw2arvj"
       }
     ]
   },
@@ -364,6 +370,12 @@
         "frequency": 1,
         "time": 1567044412359,
         "id": "1cb5jzw1s6xw"
+      },
+      {
+        "speed": 149.6495,
+        "frequency": 1,
+        "time": 1567045279285,
+        "id": "1cb5jzw2arvj"
       }
     ]
   }

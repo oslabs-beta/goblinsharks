@@ -9,7 +9,7 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, '/bin/client/dist'),
-    filename: 'bundle.min.js'
+    filename: '../client/dist/bundle.min.js'
   },
   module: {
     rules: [

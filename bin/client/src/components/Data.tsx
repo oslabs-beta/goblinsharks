@@ -114,9 +114,12 @@ type RequestObject = {
 }
 
 // Output object.
+const testingData = {
+  Query:{state:[]}
+}
 const processedData = {
-  overview: getOverviewData(data),
-  resolvers: getResolversData(data),
+  overview: getOverviewData(testingData),
+  resolvers: getResolversData(testingData),
 };
 
 /**

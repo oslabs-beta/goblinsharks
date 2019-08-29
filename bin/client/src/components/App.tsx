@@ -36,7 +36,7 @@ const App = () => {
   }
 
   const modes = ['Overview', 'Queries', 'Mutations', 'Resolvers'];
-
+ 
   // Hook to update the current mode.
   const [currentMode, updateMode] = useState('overview');
   const [ data, updateData ] = useState(processedData);
