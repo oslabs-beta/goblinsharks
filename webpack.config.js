@@ -23,9 +23,9 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './bin/client/src/index.html'
-    })
-  ]
+  // plugins: [
+  //   new HtmlWebpackPlugin({
+  //     template: './bin/client/src/index.html'
+  //   })
+  // ]
 }
