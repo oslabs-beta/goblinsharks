@@ -281,4 +281,4 @@ function getResolversData(data: object) {
 
 console.log('data tsx line 825: ', processedData);
 // Export.
-export { processedData };
+export { processedData, getOverviewData, getResolversData };
