@@ -144,13 +144,14 @@ function getOverviewData (data: object) {
     summary: getOverviewSummaryData(data),
     requests: getOverviewRequestsData(data),
     response: getOverviewResponseData(data),
+    resolvers: getOverviewResolversData(data)
   };
 
   // Gets summary data from 'data'.
   function getOverviewSummaryData (data: object) {
     // Init data to return.
     const rtnObj = {
-      'numTotalRequests': 0,
+      'numTotalRequests': 0
     };
 
     // Count total requests.
@@ -168,6 +169,8 @@ function getOverviewData (data: object) {
     const rtnObj = {
       'times': [''],
       'rpm': [null],
+      'ave': 0,
+      'count': 0
     };
 
     // Counts total requests.
@@ -179,7 +182,6 @@ function getOverviewData (data: object) {
         tempData["count"][bin] = bin in tempData["count"] ? tempData["count"][bin] + 1 : 1;
       })
     }
-    console.log('line 714: ', Object.keys(tempData["count"]).map(key => [Number(key), tempData['count'][key]]));
     // Cast the counts obj to array and sort.
     const tempDataAsSortedArray = Object.keys(tempData["count"])
                                         .map(key => [Number(key), tempData['count'][key]])
@@ -197,6 +199,8 @@ function getOverviewData (data: object) {
     const rtnObj = {
       'times': [''],
       '90': [null],
+      'ave': 0.0,
+      'count': 0
     };
 
     // Counts total requests.
@@ -209,6 +213,11 @@ function getOverviewData (data: object) {
         tempData["speed"][bin] = bin in tempData["speed"] ? 
           ((tempData["counts"][bin] - 1) * tempData["speed"][bin] / tempData["counts"][bin])
           + (request.speed / tempData["counts"][bin]) : request.speed;
+        
+        // Set the average.
+        rtnObj['count']++;
+        rtnObj['ave'] = ( rtnObj['ave'] * (rtnObj['count']-1) / rtnObj['count'] )
+                        + ( request.speed / rtnObj['count'] );
       })
     }
  
@@ -223,6 +232,46 @@ function getOverviewData (data: object) {
     return rtnObj;
   };
 
+  // Execution Times data.
+  function getOverviewResolversData(data: object) {
+    // Init an object to hold our analysis.
+    const rtnObj = {
+      'times': [''],
+      'aveSpeed': [null]
+    };
+
+    const tempData = { "speed": {} , "counts": {} };
+    // Init a recursive funtion to count nested resolvers.
+    const recurseSpeed = (key: any, element: any) => {
+      if (Array.isArray(element)) {
+        
+        element.forEach(request => {
+          let bin = Number(Math.floor((request.time - minTS)/1000)*1000 + minTS);
+          tempData["counts"][bin] = bin in tempData["counts"] ? tempData["counts"][bin] + 1 : 1;
+          tempData["speed"][bin] = bin in tempData["speed"] ? 
+                                 ((tempData["counts"][bin] - 1) * tempData["speed"][bin] / tempData["counts"][bin])
+                                 + (request.speed / tempData["counts"][bin]) : request.speed;
+        });
+
+      } else for (let el in element) recurseSpeed(key + ":" + el, element[el]);
+    }
+
+    // Iterate through top level Resolvers.
+    for (let key in data) if (key !== "Query") recurseSpeed(key, data[key]);
+
+    // Cast the counts obj to array and sort.
+    const tempDataAsSortedArray = Object.keys(tempData["speed"])
+                                        .map(key => [Number(key), tempData['speed'][key]])
+                                        .sort((a, b)=> a[0] - b[0]);
+    
+    rtnObj["times"] = tempDataAsSortedArray.map(el => new Date(el[0]).toTimeString().split(' ')[0]);
+    rtnObj["aveSpeed"] = tempDataAsSortedArray.map(el => el[1]);
+  
+    // Return
+    return rtnObj;
+  }
+
+
   // Return.
   return returnData;
 }
@@ -234,7 +283,8 @@ function getOverviewData (data: object) {
 function getResolversData(data: object) {
   const returnData = {
     invocationCounts: getInvocationCountsData(data),
-    executionTimes: getExecutionTimesData(data)
+    executionTimes: getExecutionTimesData(data),
+    averageTime: 0.0,
   };
 
   // Invocation Counts data.
@@ -264,7 +314,10 @@ function getResolversData(data: object) {
     const recurseSpeed = (key: any, element: any) => {
       if (Array.isArray(element)) {
         let speedArr = element.map(request => request["speed"]);
-        rtnObj[key] = speedArr.reduce((a,c) => a+c) / speedArr.length;
+        rtnObj[key]={
+          ave: speedArr.reduce((a,c) => a+c) / speedArr.length,
+          count: speedArr.length,
+        };
       } else for (let el in element) recurseSpeed(key + ":" + el, element[el]);
     }
 
@@ -275,10 +328,21 @@ function getResolversData(data: object) {
     return rtnObj;
   }
 
+
+  // Get Average Times data.
+  let sumAve = 0.0;
+  let count = 0;
+
+  for (let key in returnData.executionTimes) {
+    count += returnData.executionTimes[key]['count']
+    sumAve += returnData.executionTimes[key]['ave'] * returnData.executionTimes[key]['count'];
+  }
+
+  returnData['averageTime'] = sumAve / count;
+
   // Return.
   return returnData;
 }
 
-console.log('data tsx line 825: ', processedData);
 // Export.
 export { processedData, getOverviewData, getResolversData };

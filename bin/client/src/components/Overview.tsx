@@ -15,12 +15,20 @@ import './Overview.css'
 
 interface OverviewProps  {
   overviewData: OverviewData,
+  resolversData: ResolversData
 }
 
 type OverviewData = {
   summary: Object,
   requests: Object,
-  response: Object
+  response: Object,
+  resolvers: Object
+}
+
+type ResolversData = {
+  invocationCounts: Object,
+  executionTimes: Object,
+  averageTime: Number
 }
 
 // type OverviewSummaryProps = {
@@ -42,28 +50,29 @@ type OverviewData = {
  * @param props 
  */
 function OverviewSummary(props: any) {
-  // An array statistics.
-  // console.log(props.summary);
-  const summaryItems = ['Total Requests', 'Average Resolutions Time'];
-
-  // Map statistics to a list.
-  const summaryItemsList = summaryItems.map((statistic: string) => {
-    return (
-      <div key={"overview-summary-statistics" + statistic.toLowerCase()}
-           className="overview-summary-statistic-statval">
-        <div className="overview-summary-statistic-stat">{statistic}</div>
-        <div className="overview-summary-statistic-val">{props.summary.numTotalRequests}</div>
-      </div>
-    )
-  });
-
   // Render the summary statistics according to the following.
   return (
     <div id="overview-summary" className="overview-content">
       <div id="overview-summary-title" className="content-title overview-content-whitebg">
         <b>Summary</b>
       </div>
-      <div id="overview-summary-statistics-wrapper" className="overview-content-whitebg">{summaryItemsList}</div>
+
+      <div id="overview-summary-statistics-wrapper" className="overview-content-whitebg">
+
+        <div key={"overview-summary-statistics-totalrequests"}
+            className="overview-summary-statistic-statval">
+          <div className="overview-summary-statistic-stat">Total Requests</div>
+          <div className="overview-summary-statistic-val">{props.summary.numTotalRequests}</div>
+        </div>
+
+        <div key={"overview-summary-statistics-averageresolutiontime"}
+            className="overview-summary-statistic-statval">
+          <div className="overview-summary-statistic-stat">Average Response Time (ms)</div>
+          <div className="overview-summary-statistic-val">{props.averageTime.toFixed(2)}</div>
+        </div>
+
+
+      </div>
     </div>
   )
 }
@@ -74,10 +83,9 @@ function OverviewSummary(props: any) {
  * @param props 
  */
 function OverviewRequests(props: any) {
-  console.log('overviewrequests props:', props);
   // Chart.js data.
   const chartData = {
-    labels: props.requests.times,
+    labels: props.requests.times.slice(-100),
     datasets: [
       {
         label: 'Requests Per Second',
@@ -98,7 +106,7 @@ function OverviewRequests(props: any) {
         pointHoverBorderWidth: 2,
         pointRadius: 1,
         pointHitRadius: 10,
-        data: props.requests.rpm
+        data: props.requests.rpm.slice(-100)
       }
     ]
   };
@@ -131,9 +139,8 @@ function OverviewRequests(props: any) {
  */
 function OverviewResponse(props: any) {
   // Chart.js data.
-  console.log('overviewresponse props:', props);
   const chartData = {
-    labels: props.response.times,
+    labels: props.resolvers['times'].slice(-100),
     datasets: [
       {
         label: 'Response Time',
@@ -154,7 +161,7 @@ function OverviewResponse(props: any) {
         pointHoverBorderWidth: 2,
         pointRadius: 1,
         pointHitRadius: 10,
-        data: props.response["90"]
+        data: props.resolvers["aveSpeed"].slice(-100)
       }
     ]
   };
@@ -169,9 +176,9 @@ function OverviewResponse(props: any) {
   return (
     <div id="overview-response" className="overview-content">
       <div id="overview-response-title" className="content-title overview-content-whitebg">
-        <b>Response Time (90th Percentile)</b> this session:
+        <b>Response Time 90 (ms)</b> this session:
       </div>
-      <div id="overview-response-chart-wrapper" className="chart-wrapper overview-content-whitebg">
+      <div id="overview-resolvers-chart-wrapper" className="chart-wrapper overview-content-whitebg">
         <Line data={chartData} options={chartOptions} />
       </div>
     </div>
@@ -198,9 +205,9 @@ function OverviewErrors() {
 function Overview(props: OverviewProps) {
   return (
     <div id="modeOverview">
-      <OverviewSummary summary={props.overviewData.summary} />
+      <OverviewSummary summary={props.overviewData.summary} averageTime={props.resolversData.averageTime}/>
       <OverviewRequests requests={props.overviewData.requests} />
-      <OverviewResponse response={props.overviewData.response} />
+      <OverviewResponse resolvers={props.overviewData.resolvers} />
       <OverviewErrors />
     </div>
   )
