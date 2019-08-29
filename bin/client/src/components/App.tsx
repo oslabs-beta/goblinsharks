@@ -72,13 +72,14 @@ const App = () => {
             .classList.toggle('active');
   });
 
+  console.log(data);
   // Initialize the current view.
-  let currentView = <Overview overviewData={data.overview} />;
+  let currentView = <Overview overviewData={data.overview} resolversData={data.resolvers}/>;
 
   // Conditionally render the following based on current mode.
   switch (currentMode) {
     case 'overview':
-      currentView = <Overview overviewData={data.overview} />;
+      currentView = <Overview overviewData={data.overview} resolversData={data.resolvers} />;
       break;
     case 'queries':
       currentView = <Queries data={data} />;

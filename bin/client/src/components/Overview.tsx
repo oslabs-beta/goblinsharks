@@ -15,12 +15,19 @@ import './Overview.css'
 
 interface OverviewProps  {
   overviewData: OverviewData,
+  resolversData: ResolversData
 }
 
 type OverviewData = {
   summary: Object,
   requests: Object,
   response: Object
+}
+
+type ResolversData = {
+  invocationCounts: Object,
+  executionTimes: Object,
+  averageTime: Number
 }
 
 // type OverviewSummaryProps = {
@@ -42,28 +49,30 @@ type OverviewData = {
  * @param props 
  */
 function OverviewSummary(props: any) {
-  // An array statistics.
-  // console.log(props.summary);
-  const summaryItems = ['Total Requests', 'Average Resolution Time'];
-
-  // Map statistics to a list.
-  const summaryItemsList = summaryItems.map((statistic: string) => {
-    return (
-      <div key={"overview-summary-statistics" + statistic.toLowerCase()}
-           className="overview-summary-statistic-statval">
-        <div className="overview-summary-statistic-stat">{statistic}</div>
-        <div className="overview-summary-statistic-val">{props.summary.numTotalRequests}</div>
-      </div>
-    )
-  });
-
+  console.log("line 51: ", props);
   // Render the summary statistics according to the following.
   return (
     <div id="overview-summary" className="overview-content">
       <div id="overview-summary-title" className="content-title overview-content-whitebg">
         <b>Summary</b>
       </div>
-      <div id="overview-summary-statistics-wrapper" className="overview-content-whitebg">{summaryItemsList}</div>
+
+      <div id="overview-summary-statistics-wrapper" className="overview-content-whitebg">
+
+        <div key={"overview-summary-statistics-totalrequests"}
+            className="overview-summary-statistic-statval">
+          <div className="overview-summary-statistic-stat">Total Requests</div>
+          <div className="overview-summary-statistic-val">{props.summary.numTotalRequests}</div>
+        </div>
+
+        <div key={"overview-summary-statistics-averageresolutiontime"}
+            className="overview-summary-statistic-statval">
+          <div className="overview-summary-statistic-stat">Average Response Time (ms)</div>
+          <div className="overview-summary-statistic-val">{props.averageTime.toFixed(2)}</div>
+        </div>
+
+
+      </div>
     </div>
   )
 }
@@ -198,7 +207,7 @@ function OverviewErrors() {
 function Overview(props: OverviewProps) {
   return (
     <div id="modeOverview">
-      <OverviewSummary summary={props.overviewData.summary} />
+      <OverviewSummary summary={props.overviewData.summary} averageTime={props.resolversData.averageTime}/>
       <OverviewRequests requests={props.overviewData.requests} />
       <OverviewResponse response={props.overviewData.response} />
       <OverviewErrors />
