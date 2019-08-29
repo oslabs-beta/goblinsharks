@@ -17,8 +17,7 @@ wss.on('connection', (ws) => { // initiating ws connection
   console.log('Websocket connection established');
   fs.watchFile(path.join(__dirname,'../db/data.json'),{interval:1000},(data) => { // listening for changes to data.json
     // broadcast(data);
-    console.log(data)
-    ws.send(JSON.stringify(data)); // sending to client updated data
+    ws.send(JSON.stringify({hello:"World"})); // sending to client updated data
     console.log('file changed');
   })
 });

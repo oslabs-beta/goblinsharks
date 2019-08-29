@@ -1,18 +1,18 @@
-const connection = new WebSocket('ws://localhost:9000');
 
 
 
 
 
 // connection.addEventListener('open',()=>{
-//   console.log('websocket connection established to port 9000');
-// })
-
-// connection.addEventListener('message',(e) => {
-//   console.log('message received through socket connection')
-//   console.log(e)
-// })
-
+  //   console.log('websocket connection established to port 9000');
+  // })
+  
+  // connection.addEventListener('message',(e) => {
+    //   console.log('message received through socket connection')
+    //   console.log(e)
+    // })
+    
+const connection = new WebSocket('ws://localhost:9000');
 connection.onopen = () => {
   console.log("socket is open on port 9000")
   connection.onmessage = (message) => {

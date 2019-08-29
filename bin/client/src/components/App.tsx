@@ -13,13 +13,48 @@ import Resolvers from './Resolvers';
 import "./App.css";
 
 // TODO: Make this responsive to changes.
-import { processedData } from './Data';
+import { processedData, getOverviewData, getResolversData } from './Data';
 
 // Renders App.
 const App = () => {
+  console.log('app is getting rendered')
   // An array of Modes.
-  const modes = ['Overview', 'Queries', 'Mutations', 'Resolvers'];
+  const connection = new WebSocket('ws://localhost:9000');
+  const [ data, updateData ] = useState(processedData);
 
+  connection.onopen = () => {
+    console.log("socket is open on port 9000")
+    fetch('./db/data.json')
+      .then((data)=>data.json())
+      .then((res)=>{
+        console.log('about to process data')
+        const processedData = {
+          overview: getOverviewData(res),
+          resolvers: getResolversData(res),
+        };
+        updateData(processedData)
+      })
+      .catch(e => console.log('error fetching from json', e))
+    connection.onmessage = (message) => {
+      console.log(message);
+      console.log('socket server message: ' + (message.data));
+  
+      fetch('./db/data.json')
+      .then((data)=>data.json())
+      .then((res)=>{
+        console.log('about to process data')
+        const processedData = {
+          overview: getOverviewData(res),
+          resolvers: getResolversData(res),
+        };
+        updateData(processedData)
+      })
+      .catch(e => console.log('error fetching from json', e))
+    }
+  }
+
+  const modes = ['Overview', 'Queries', 'Mutations', 'Resolvers'];
+ 
   // Hook to update the current mode.
   const [currentMode, updateMode] = useState('overview');
 
@@ -31,24 +66,24 @@ const App = () => {
     // Add 'active' to the current Mode css.
     document.getElementById("header-navigation-item-" + currentMode)!
             .classList.toggle('active');
-  })
+  });
 
   // Initialize the current view.
-  let currentView = <Overview overviewData={processedData.overview} />;
+  let currentView = <Overview overviewData={data.overview} />;
 
   // Conditionally render the following based on current mode.
   switch (currentMode) {
     case 'overview':
-      currentView = <Overview overviewData={processedData.overview} />;
+      currentView = <Overview overviewData={data.overview} />;
       break;
     case 'queries':
-      currentView = <Queries data={processedData} />;
+      currentView = <Queries data={data} />;
       break;
     case 'mutations':
-      currentView = <Mutations data={processedData} />;
+      currentView = <Mutations data={data} />;
       break;
     case 'resolvers':
-      currentView = <Resolvers resolversData={processedData.resolvers} />;
+      currentView = <Resolvers resolversData={data.resolvers} />;
       break;
   }
 
