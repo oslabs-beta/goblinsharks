@@ -19,40 +19,44 @@ import { processedData, getOverviewData, getResolversData } from './Data';
 const App = () => {
   console.log('app is getting rendered')
   // An array of Modes.
-  const connection = new WebSocket('ws://localhost:9000');
   const [ data, updateData ] = useState(processedData);
-
-  connection.onopen = () => {
-    console.log("socket is open on port 9000")
-    fetch('./db/data.json')
-      .then((data)=>data.json())
-      .then((res)=>{
-        console.log('about to process data')
-        const processedData = {
-          overview: getOverviewData(res),
-          resolvers: getResolversData(res),
-        };
-        updateData(processedData)
-      })
-      .catch(e => console.log('error fetching from json', e))
-    connection.onmessage = (message) => {
-      console.log(message);
-      console.log('socket server message: ' + (message.data));
   
+  
+  useEffect(()=>{
+    
+    const connection = new WebSocket('ws://localhost:9000');
+    console.log('use effect fired off')
+    connection.onopen = () => {
+      console.log("socket is open on port 9000")
       fetch('./db/data.json')
-      .then((data)=>data.json())
-      .then((res)=>{
-        console.log('about to process data')
-        const processedData = {
-          overview: getOverviewData(res),
-          resolvers: getResolversData(res),
-        };
-        updateData(processedData)
-      })
-      .catch(e => console.log('error fetching from json', e))
+        .then((data)=>data.json())
+        .then((res)=>{
+          console.log('about to process data after opening connection')
+          const processedData = {
+            overview: getOverviewData(res),
+            resolvers: getResolversData(res),
+          };
+          updateData(processedData)
+        })
+        .catch(e => console.log('error fetching from json', e))
+      connection.onmessage = (message) => {
+        console.log(message);
+        console.log('socket server message: ' + (message.data));
+    
+        fetch('./db/data.json')
+        .then((data)=>data.json())
+        .then((res)=>{
+          console.log('about to process data')
+          const processedData = {
+            overview: getOverviewData(res),
+            resolvers: getResolversData(res),
+          };
+          updateData(processedData)
+        })
+        .catch(e => console.log('error fetching from json', e))
+      }
     }
-  }
-
+  },[])
   const modes = ['Overview', 'Queries', 'Mutations', 'Resolvers'];
  
   // Hook to update the current mode.
