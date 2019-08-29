@@ -3,6 +3,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  mode: 'development',
   entry: './bin/client/src/index.tsx',
   resolve: {
     extensions: ['.ts', '.tsx', '.js']
@@ -23,9 +24,14 @@ module.exports = {
       }
     ]
   },
-  // plugins: [
-  //   new HtmlWebpackPlugin({
-  //     template: './bin/client/src/index.html'
-  //   })
-  // ]
+  devServer: {
+    publicPath: '/public/',
+    proxy:{
+      '/' : 'http://localhost:9000'
+    },
+    // contentBase: path.join(__dirname, './bin/client/dist/'),
+    // watchContentBase:true,
+    // hot: true,
+    // inline: true 
+  }
 }
