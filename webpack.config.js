@@ -1,8 +1,12 @@
 const path = require('path');
 
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-
 module.exports = {
+  mode: 'development',
+  watch: true,
+  watchOptions: {
+    ignored: /node_modules/,
+    aggregateTimeout: 1000
+  },
   entry: './bin/client/src/index.tsx',
   resolve: {
     extensions: ['.ts', '.tsx', '.js']
@@ -23,9 +27,4 @@ module.exports = {
       }
     ]
   },
-  // plugins: [
-  //   new HtmlWebpackPlugin({
-  //     template: './bin/client/src/index.html'
-  //   })
-  // ]
 }

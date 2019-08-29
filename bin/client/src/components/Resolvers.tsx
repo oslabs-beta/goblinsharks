@@ -26,28 +26,75 @@ type ResolversData = {
  * @param props 
  */
 function ResolversInvocationCount(props: any) {
+  // Sort the object of objects by count popularity descending.
+  const resolverListSortedByPopularity = 
+    Object.keys(props.invocationCounts).map(path => {
+      return [path, props.invocationCounts[path]];
+    }).sort((a, b) => b[1] - a[1]);
 
-  console.log('line 30: ', props);
+  // Create array of DOM elements for the resolvers.
+  const resolverListItems = resolverListSortedByPopularity.map((item, idx) => {
+    return (
+      <div key={item[0] + idx} className="resolverListItem">
+        <div className="resolverListName">{item[0]}</div>
+        <div className="resolverListCount">{item[1]}</div>
+      </div>
+    )
+  });
+
+  // Render the following:
   return (
-    <div>
-      
+    <div id="resolvers-popularity" className="resolvers-content">
+
+      <div id="resolvers-title" className="content-title resolvers-content-whitebg">
+        <b>Resolver Operations</b> by invocation count:
+      </div>
+
+      <div id="resolvers-popularitylist-wrapper" className="overview-content-whitebg">
+        {resolverListItems}
+      </div>
     </div>
   )
 }
+
 
 /**
  * 
  * @param props 
  */
 function ResolversExecutionTime(props: any) {
-  
-  console.log('line 44: ', props);
-  return (
-    <div>
+  console.log('line 66: ', props.executionTimes);
+  // Sort the object of objects by count popularity descending.
+  const resolverListSortedByExecutionTime = 
+    Object.keys(props.executionTimes).map(path => {
+      return [path, props.executionTimes[path]['ave']];
+    }).sort((a, b) => b[1] - a[1]);
 
+  // Create array of DOM elements for the resolvers.
+  const resolverListItems = resolverListSortedByExecutionTime.map((item, idx) => {
+    return (
+      <div key={item[0] + idx} className="resolverListItem">
+        <div className="resolverListName">{item[0]}</div>
+        <div className="resolverListCount">{item[1].toFixed(2)}</div>
+      </div>
+    )
+  });
+
+  // Render the following:
+  return (
+    <div id="resolvers-executiontime" className="resolvers-content">
+
+      <div id="resolvers-title" className="content-title resolvers-content-whitebg">
+        <b>Resolver Operations</b> by average execution time (ms):
+      </div>
+
+      <div id="resolvers-popularitylist-wrapper" className="overview-content-whitebg">
+        {resolverListItems}
+      </div>
     </div>
   )
 }
+
 
 /**
  * 

@@ -72,7 +72,7 @@ const App = () => {
             .classList.toggle('active');
   });
 
-  console.log(data);
+  console.log("resolvers data: ", data);
   // Initialize the current view.
   let currentView = <Overview overviewData={data.overview} resolversData={data.resolvers}/>;
 
