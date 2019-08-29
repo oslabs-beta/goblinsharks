@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --mode development",
     "watch": "webpack --watch",
-    "dev": "webpack-dev-server --mode development --open --hot --inline & node ./bin/server/wsServer.js",
+    "dev": "webpack-dev-server --mode development --open & node ./bin/server/wsServer.js",
     "build": "webpack --mode production"
   },
   "keywords": [],
