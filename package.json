@@ -9,8 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --mode development",
-    "watch": "webpack --watch",
-    "dev": "webpack-dev-server --mode development --open & node ./bin/server/wsServer.js",
+    "dev": "webpack --mode development & goblin monitor",
     "build": "webpack --mode production"
   },
   "keywords": [],

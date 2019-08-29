@@ -28,14 +28,4 @@ module.exports = {
       }
     ]
   },
-  devServer: {
-    publicPath: '/public/',
-    proxy:{
-      '/' : 'http://localhost:9000'
-    },
-    // contentBase: path.join(__dirname, './bin/client/dist/'),
-    // watchContentBase:true,
-    // hot: true,
-    // inline: true 
-  }
 }
