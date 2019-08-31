@@ -1,121 +1,16 @@
 // src/components/Data.tsx
 
-// Import the data.
-
-let data = {
-  "Query": {
-    "state": [
-      {
-        "speed": 0.5189,
-        "frequency": 1,
-        "time": 1566953230035,
-        "id": "12n6jzujhuc3"
-      },
-      {
-        "speed": 0.0259,
-        "frequency": 1,
-        "time": 1566953254543,
-        "id": "12n6jzujid8v"
-      },
-      {
-        "speed": 0.6509,
-        "frequency": 1,
-        "time": 1566964058218,
-        "id": "13e7jzupxxey"
-      },
-      {
-        "speed": 0.0219,
-        "frequency": 1,
-        "time": 1566964079516,
-        "id": "13e7jzupyduk"
-      },
-      {
-        "speed": 0.7992,
-        "frequency": 1,
-        "time": 1567016902089,
-        "id": "164hjzvlek09"
-      },
-      {
-        "speed": 0.5589,
-        "frequency": 1,
-        "time": 1567024897327,
-        "id": "174vjzvq5x67"
-      },
-      {
-        "speed": 0.5087,
-        "frequency": 1,
-        "time": 1567025071212,
-        "id": "17e2jzvq9ncc"
-      }
-    ]
-  },
-  "State": {
-    "name": [
-      {
-        "speed": 101.998,
-        "frequency": 1,
-        "time": 1566953230137,
-        "id": "12n6jzujhuc3"
-      },
-      {
-        "speed": 113.1981,
-        "frequency": 1,
-        "time": 1566953254657,
-        "id": "12n6jzujid8v"
-      },
-      {
-        "speed": 131.8722,
-        "frequency": 1,
-        "time": 1566964058351,
-        "id": "13e7jzupxxey"
-      },
-      {
-        "speed": 90.4416,
-        "frequency": 1,
-        "time": 1566964079607,
-        "id": "13e7jzupyduk"
-      },
-      {
-        "speed": 172.7091,
-        "frequency": 1,
-        "time": 1567016902263,
-        "id": "164hjzvlek09"
-      },
-      {
-        "speed": 85.7238,
-        "frequency": 1,
-        "time": 1567024897414,
-        "id": "174vjzvq5x67"
-      },
-      {
-        "speed": 81.3556,
-        "frequency": 1,
-        "time": 1567025071294,
-        "id": "17e2jzvq9ncc"
-      }
-    ]
-  }
-}
-// async function getData(){
-//   await fetch('./db/data.json')
-//   .then((data)=>data.json())
-//   .then((res)=>{
-//     data = JSON.parse(res);
-//   })
-//   .catch(e => console.log('error fetching data', e))
-// }
-
-// data = JSON.parse(data)
-// Types.
+// TS types.
 type RequestObject = {
   speed: number,
   time: number,
-  frequency: number 
+  frequency: number,
+  id: string
 }
 
 // Output object.
 const testingData = {
-  Query:{state:[]}
+  Query:{ state: [] }
 }
 const processedData = {
   overview: getOverviewData(testingData),
@@ -163,7 +58,11 @@ function getOverviewData (data: object) {
     return rtnObj;
   }
   
-  // Gets Requests data from 'data'.
+  /**
+   * Gets Requests data from 'data'.
+   * @params
+   * @todo: account for empty bins.
+   */
   function getOverviewRequestsData (data: object) {
     // Init data to return.
     const rtnObj = {
@@ -270,7 +169,6 @@ function getOverviewData (data: object) {
     // Return
     return rtnObj;
   }
-
 
   // Return.
   return returnData;
