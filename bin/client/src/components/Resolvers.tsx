@@ -4,11 +4,6 @@ import * as React from 'react';
 
 import './Resolvers.css'
 
-// Header Props TS typedef.
-// type OverviewProps = {
-//   modes: Array<string>,
-//   updateMode: Function
-// }
 
 // ResolversProps type.
 type ResolversProps = {
@@ -22,7 +17,7 @@ type ResolversData = {
 }
 
 /**
- * 
+ * Renders the list of resolvers sorted by invocation count, descending.
  * @param props 
  */
 function ResolversInvocationCount(props: any) {
@@ -59,11 +54,10 @@ function ResolversInvocationCount(props: any) {
 
 
 /**
- * 
+ * Renders the list of resolvers sorted by average execution time, descending.
  * @param props 
  */
 function ResolversExecutionTime(props: any) {
-  console.log('line 66: ', props.executionTimes);
   // Sort the object of objects by count popularity descending.
   const resolverListSortedByExecutionTime = 
     Object.keys(props.executionTimes).map(path => {
@@ -97,7 +91,7 @@ function ResolversExecutionTime(props: any) {
 
 
 /**
- * 
+ * Resolvers FC renders the following.
  * @param props 
  */
 function Resolvers(props: ResolversProps) {

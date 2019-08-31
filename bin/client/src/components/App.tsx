@@ -17,48 +17,34 @@ import { processedData, getOverviewData, getResolversData } from './Data';
 
 // Renders App.
 const App = () => {
-  console.log('app is getting rendered')
   // An array of Modes.
   const [ data, updateData ] = useState(processedData);
   
-  
-  useEffect(()=>{
-    
+  // This establishes socket connection.  Invokes once.
+  useEffect(() => {
+    // Connection.
     const connection = new WebSocket('ws://localhost:9000');
-    console.log('use effect fired off')
+    
+    // On open connection, update data.
     connection.onopen = () => {
       console.log("socket is open on port 9000")
       fetch('./db/data.json')
-        .then((data)=>data.json())
-        .then((res)=>{
-          console.log('about to process data after opening connection')
-          const processedData = {
-            overview: getOverviewData(res),
-            resolvers: getResolversData(res),
-          };
-          updateData(processedData)
-        })
+        .then(data => data.json())
+        .then(res => updateData({ overview: getOverviewData(res), resolvers: getResolversData(res) }))
         .catch(e => console.log('error fetching from json', e))
+      
+      // On message listener.  Updates data according to message body.
       connection.onmessage = (message) => {
-        console.log(message);
         console.log('socket server message: ' + (message.data));
     
         fetch('./db/data.json')
-        .then((data)=>data.json())
-        .then((res)=>{
-          console.log('about to process data')
-          const processedData = {
-            overview: getOverviewData(res),
-            resolvers: getResolversData(res),
-          };
-          updateData(processedData)
-        })
-        .catch(e => console.log('error fetching from json', e))
+          .then(data => data.json())
+          .then(res => updateData({ overview: getOverviewData(res), resolvers: getResolversData(res) }))
+          .catch(e => console.log('error fetching from json', e))
       }
     }
-  },[])
-  const modes = ['Overview', 'Queries', 'Mutations', 'Resolvers'];
- 
+  }, [])
+
   // Hook to update the current mode.
   const [currentMode, updateMode] = useState('overview');
 
@@ -72,7 +58,6 @@ const App = () => {
             .classList.toggle('active');
   });
 
-  console.log("resolvers data: ", data);
   // Initialize the current view.
   let currentView = <Overview overviewData={data.overview} resolversData={data.resolvers}/>;
 
@@ -93,6 +78,9 @@ const App = () => {
   }
 
   // Render App with the following DOM.
+  const modes = ['Overview', 'Queries', 'Mutations', 'Resolvers'];
+
+  // Render the following:
   return (
     <div>
       <Header modes={modes} updateMode={updateMode} />
