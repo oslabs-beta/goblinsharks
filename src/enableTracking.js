@@ -13,11 +13,12 @@ module.exports = function enableTracking(resolversObject,queryField) {
     const fieldName = fields[index];
     const currentResolver = async function(...args) { 
     const [parent, params, ctx, info] = args // 4 arguments available to resolvers. 
-    if (!parent){
-      // console.log(info)
-    }
+    // if (!parent){
+    //   // console.log(info)
+    // }
     if (!ctx['id'])  { // setting a unique id per request on the context obj
       ctx['id'] = uniqid.process();
+
     }
     const id = ctx.id
     var t0 = now(); 

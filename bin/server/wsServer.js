@@ -9,13 +9,13 @@ const path = require('path');
 
 const wss = new WebSocket({
   server: httpServer
-})
+});
 
 httpServer.on('request', app);
 
 wss.on('connection', (ws) => { // initiating ws connection
   console.log('Websocket connection established');
-  fs.watchFile(path.join(__dirname,'../db/data.json'),{interval:1000},(data) => { // listening for changes to data.json
+  fs.watchFile(path.join(__dirname,'../db/data.json'), { interval:1000 }, (data) => { // listening for changes to data.json
     // broadcast(data);
     ws.send(JSON.stringify({hello:"World"})); // sending to client updated data
     console.log('file changed');
@@ -24,6 +24,6 @@ wss.on('connection', (ws) => { // initiating ws connection
 
 
 
-httpServer.listen(9000,() => {
+httpServer.listen(9000, () => {
   console.log('listening on port 9000')
 });
