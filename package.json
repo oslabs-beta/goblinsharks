@@ -7,7 +7,7 @@
     "goblin": "./bin/exec.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "webpack --mode development",
     "dev": "webpack --mode development & goblin monitor",
     "build": "webpack --mode production"
@@ -23,6 +23,7 @@
     "chart.js": "^2.8.0",
     "commander": "^3.0.0",
     "express": "^4.17.1",
+    "g": "^2.0.1",
     "nodemon": "^1.19.1",
     "performance-now": "^2.1.0",
     "react": "^16.9.0",
@@ -36,7 +37,10 @@
     "awesome-typescript-loader": "^5.2.1",
     "cors": "^2.8.5",
     "css-loader": "^3.2.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
     "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
     "style-loader": "^1.0.0",
     "typescript": "^3.6.2",
     "webpack": "^4.39.3",
