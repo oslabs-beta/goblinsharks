@@ -78,7 +78,7 @@ const App = () => {
   }
 
   // Render App with the following DOM.
-  const modes = ['Overview', 'Queries', 'Mutations', 'Resolvers'];
+  const modes = ['Overview', 'Resolvers'];
 
   // Render the following:
   return (
